@@ -1,5 +1,7 @@
+import Layout from "./components/Layout.tsx";
+
 function App() {
-  return <></>
+  return <Layout></Layout>
 }
 
 export default App
