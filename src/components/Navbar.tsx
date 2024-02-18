@@ -13,7 +13,7 @@ export default function Navbar() {
                     <li><a href="#" className="text-lg font-light text-gray-600 hover:text-blue-600 transition-colors duration-500 ease-in-out">Vitrerie</a></li>
                     <li><a href="#" className="text-lg font-light text-gray-600 hover:text-blue-600 transition-colors duration-500 ease-in-out">Isolation intérieure</a></li>
                     <li><a href="#" className="text-lg font-light text-gray-600 hover:text-blue-600 transition-colors duration-500 ease-in-out">À propos</a></li>
-                    <li><a href="#" className="text-lg font-light text-gray-600 hover:text-blue-600 transition-colors duration-500 ease-in-out">Contact</a></li>
+                    <li><a href="#" className="text-lg font-light text-gray-600 hover:text-blue-600 transition-colors duration-500 ease-in-out">Contactez  nous </a></li>
                 </ul>
             </div>
         </nav>
