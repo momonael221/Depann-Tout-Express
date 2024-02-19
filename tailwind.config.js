@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors');
 export default {
   content: [
     "./index.html",
@@ -15,10 +16,23 @@ export default {
         center: true
       },
     },
-    fontFamily: {
-      'sans': ['Syne', 'sans-serif']
+    colors: {
+      ...colors,
+      first: "#797FF2",
+      second: "#102973",
+      third: "#1DB6F2",
+      fourth: "#4AD9CA",
+      fiveth: "#F2F2F2"
     },
-    extend: {},
+    fontFamily: {
+      'sans': ['Roboto', 'sans-serif']
+    },
+    extend: {
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      }
+    },
   },
   plugins: [],
 }
