@@ -1,7 +1,15 @@
+import React from "react";
+import { Flowbite } from 'flowbite-react';
 import Layout from "./components/Layout.tsx";
 
-function App() {
-  return <Layout></Layout>
+interface Props {
+  children: React.ReactNode
 }
 
-export default App
+export default function App({children}: Props) {
+  return <Flowbite>
+    <Layout>
+      {children}
+    </Layout>
+  </Flowbite>
+}

@@ -1,10 +1,17 @@
-import Footer from "./Footer.tsx";
+import React from "react";
 import Navbar from "./Navbar.tsx";
+import Footer from "./Footer.tsx";
 
-export default function Layout({children}: any) {
-    return <>
+interface Props {
+    children: React.ReactNode
+}
+
+export default function Layout({children}: Props) {
+    return <div className="relative bg-white text-gray-600 antialiased dark:bg-gray-900 dark:text-gray-400">
         <Navbar/>
-        {children}
+        <main className="container mx-auto my-10">
+            {children}
+        </main>
         <Footer/>
-    </>
+    </div>
 }
