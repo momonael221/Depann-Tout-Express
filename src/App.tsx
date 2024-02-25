@@ -3,13 +3,13 @@ import { Flowbite } from 'flowbite-react';
 import Layout from "./components/Layout.tsx";
 
 interface Props {
-  children: React.ReactNode
+  routers: React.ReactNode
 }
 
-export default function App({children}: Props) {
+export default function App({routers}: Props) {
   return <Flowbite>
     <Layout>
-      {children}
+      {routers}
     </Layout>
   </Flowbite>
 }
