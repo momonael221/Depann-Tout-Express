@@ -15,13 +15,13 @@ export default function Footer() {
             <div className="w-full container mx-auto rounded-none">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div className="flex flex-col space-y-4">
-                        <FooterLayout.Brand href="/" src="/logo.jpg" alt="Depann-Tout-Express Logo" name="DEPANN TOUT EXPRESS"/>
-                        <span className="text-white mb-4">Disponibilité: 24h/24 - 7j/7</span>
+                        <FooterLayout.Brand href="/" src="/logo.jpg" alt="Depann-Tout-Express Logo"/>
+                        <span className="text-gray-500 dark:text-white mb-4">Disponibilité: 24h/24 - 7j/7</span>
                         <div className="flex flex-wrap gap-2">
                             <Button>Contactez-nous</Button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 mt-8 sm:mt-4 md:grid-cols-3 sm:gap-6">
+                    <div className="grid grid-cols-1 gap-8 mt-8 sm:mt-4 md:grid-cols-3 sm:gap-6">
                         <div>
                             <FooterLayout.Title title="Siège social"/>
                             <FooterLayout.LinkGroup col>

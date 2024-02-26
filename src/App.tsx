@@ -1,5 +1,5 @@
 import React from "react";
-import { Flowbite } from 'flowbite-react';
+import {Flowbite} from 'flowbite-react';
 import Layout from "./components/Layout.tsx";
 
 interface Props {

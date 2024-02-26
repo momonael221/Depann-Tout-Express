@@ -9,7 +9,7 @@ interface Props {
 export default function Layout({children}: Props) {
     return <div className="relative bg-white text-gray-600 antialiased dark:bg-gray-900 dark:text-gray-400">
         <Navbar/>
-        <main className="container mx-auto my-10">
+        <main>
             {children}
         </main>
         <Footer/>
