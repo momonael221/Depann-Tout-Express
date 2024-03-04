@@ -5,14 +5,14 @@ export default function Navbar() {
         <header className="flex flex-col">
             <NavbarLayout fluid={false} border={true}>
                 <NavbarLayout.Brand href="/">
-                    <img src="/logo.jpg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+                    <img src="/logo.jpg" className="mr-3 h-6 sm:h-9" alt="Depqnn Tout Express Logo" />
                 </NavbarLayout.Brand>
                 <div className="flex md:order-2">
                     <DarkThemeToggle/>
                     <NavbarLayout.Toggle />
                 </div>
                 <NavbarLayout.Collapse>
-                    <NavbarLayout.Link href="#" active>Accueil</NavbarLayout.Link>
+                    <NavbarLayout.Link href="/" active>Accueil</NavbarLayout.Link>
                     <NavbarLayout.Link href="#">
                         <Dropdown label="Serrurerie" arrowIcon={true} inline>
                             <Dropdown.Item><NavbarLayout.Link href="#">Ouverture de portes</NavbarLayout.Link></Dropdown.Item>
@@ -35,7 +35,7 @@ export default function Navbar() {
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link href="#">Isolation intérieure</NavbarLayout.Link>
-                    <NavbarLayout.Link href="#">À propos</NavbarLayout.Link>
+                    <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
                     <NavbarLayout.Link href="#">Contactez-nous</NavbarLayout.Link>
                 </NavbarLayout.Collapse>
             </NavbarLayout>

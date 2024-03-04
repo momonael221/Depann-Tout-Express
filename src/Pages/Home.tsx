@@ -22,7 +22,6 @@ import Wallet from "../assets/icons/Wallet.svg"
 import Hours from "../assets/icons/24-hours.svg"
 import CuttingBoard from "../assets/icons/cutting-board.svg"
 
-
 export default function Home() {
     return <>
         <section>
@@ -101,7 +100,7 @@ export default function Home() {
                         <Button color={"gray"} pill size={"xl"}>Qui sommes-nous?</Button>
                     </div>
                     <div className="col-span-1">
-                        <iframe width="717" height="365" src="https://www.youtube.com/embed/gJN20En401A"
+                        <iframe width="100%" height="365" src="https://www.youtube.com/embed/gJN20En401A"
                                 title="Depann Tout Express, dépannage rapide à Roubaix." frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen></iframe>
@@ -161,7 +160,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-40 w-full">
+        <section className="my-20 w-full">
             <div className="container mx-auto">
                 <div className="grid grid-cols-2 items-center gap-32">
                     <div className={"col-span-1"}>
@@ -185,7 +184,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-40 w-full bg-cyan-700 text-white">
+        <section className="my-20 w-full bg-cyan-700 text-white">
             <div className="container mx-auto">
                 <div className="grid grid-cols-2 items-center gap-32">
                     <div className={"col-span-1 py-20"}>
@@ -235,7 +234,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-40 w-full">
+        <section className="my-20 w-full">
             <div className="container mx-auto">
                 <div className="grid grid-cols-2 items-center gap-20">
                     <div className="col-span-1">
@@ -261,7 +260,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-40 w-full bg-gray-100 py-20">
+        <section className="w-full bg-gray-100 py-20">
             <div className="container mx-auto">
                 <div className="grid grid-cols-2 items-center gap-32">
                     <div className={"col-span-1"}>
