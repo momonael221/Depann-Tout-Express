@@ -36,7 +36,7 @@ export default function Navbar() {
                     </NavbarLayout.Link>
                     <NavbarLayout.Link href="#">Isolation intérieure</NavbarLayout.Link>
                     <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
-                    <NavbarLayout.Link href="#">Contactez-nous</NavbarLayout.Link>
+                    <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
                 </NavbarLayout.Collapse>
             </NavbarLayout>
 
