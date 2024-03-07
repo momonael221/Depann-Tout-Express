@@ -65,7 +65,7 @@ export default function Contact() {
                                 </div>
                                 <div className="flex flex-col">
                                     <label htmlFor="email">Email*:</label>
-                                    <input id={"email"} type="text" className={"form-input bg-gray-50 border-cyan-700 focus:border-cyan-900 focus:ring-cyan-900 rounded-md"} required/>
+                                    <input id={"email"} type="email" className={"form-input bg-gray-50 border-cyan-700 focus:border-cyan-900 focus:ring-cyan-900 rounded-md"} required/>
                                 </div>
                                 <div className="flex flex-col">
                                     <label htmlFor="tel">Téléphone*:</label>
