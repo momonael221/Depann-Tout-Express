@@ -28,13 +28,14 @@ export default function Navbar() {
                             <Dropdown.Item><NavbarLayout.Link href="#">Électricité</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
-                    <NavbarLayout.Link href="#">
+                    <NavbarLayout.Link>
                         <Dropdown label="Plomberie" arrowIcon={true} inline>
+                            <Dropdown.Item><NavbarLayout.Link href="/reparation-plomberie">Réparation plomberie</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Installation et réparation de plomberie</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Remplacement de cumulus</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
-                    <NavbarLayout.Link href="#">Isolation intérieure</NavbarLayout.Link>
+                    <NavbarLayout.Link href="/isolateur-interieure">Isolation intérieure</NavbarLayout.Link>
                     <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
                     <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
                 </NavbarLayout.Collapse>
