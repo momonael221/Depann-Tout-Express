@@ -72,8 +72,26 @@ export default function ReparationPlomberie() {
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Quels sont les <span className="font-light">équipements installés par nos professionnels?</span></h2>
                             <p className={"text-lg"}>Notre équipe assure l’installation et le raccordement de vos vasques, lavabos, éviers, douches, baignoires, bidets, W.-C. au sol ou W.-C. suspendus… et tout ce qui a trait à la <strong>robinetterie</strong>.</p>
                             <p>Nous intervenons dans le respect des réglementations en vigueur. Enfin, tous nos travaux sont couverts par la garantie décennale.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Rénovation énergétique</Button>
+                            <Button className={"max-w-sm"} size={"xl"} pill outline>Rénovation électrique</Button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="w-full bg-gray-100 py-20">
+            <div className="container mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                    <div className={"col-span-1"}>
+                        <div className="flex flex-col space-y-8">
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe assure l'installation et le <span className="font-light">remplacement de cumulus</span></h2>
+                            <p className={"text-lg"}>Vous envisagez de remplacer votre chauffe-eau? Votre appareil est tombé en panne? AAB Depann Tout Express est à votre service et assure la pose, l’entretien et le dépannage de votre cumulus. En tenant compte du nombre de personnes vivant sous votre toit et de vos besoins en eau chaude, nos experts vous conseillent quant à la taille de chauffe-eau à privilégier.</p>
+                            <p>Dans le cadre de votre projet de rénovation, n’hésitez pas à nous contacter également pour vos travaux de plâtrerie, de peinture ou encore de remplacement de vitres.</p>
+                            <Button className={"max-w-sm"} size={"xl"} pill outline>Besoin d'un conseil?</Button>
+                        </div>
+                    </div>
+                    <div className={"col-span-1"}>
+                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
                     </div>
                 </div>
             </div>
