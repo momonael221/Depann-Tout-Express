@@ -8,7 +8,7 @@ import Plomberie from '../assets/videos/plomberie.mp4'
 import Amenagement from '../assets/videos/amenagement.mp4'
 
 import Plombing from '../assets/img/plumbing.jpg';
-import TravauxRenovation from '../assets/img/vitrerie.jpg';
+import Vitrerie from '../assets/img/vitrerie.jpg';
 import Renovation from '../assets/img/renovation.jpg';
 
 import Isolation2 from "../assets/img/isolation2.jpg"

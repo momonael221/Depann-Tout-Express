@@ -11,7 +11,7 @@ import {
 
 export default function Footer() {
     return (
-        <FooterLayout className="rounded-none" container>
+        <FooterLayout className="rounded-none border-t border-gray-100 dark:border-gray-700" container>
             <div className="w-full container mx-auto rounded-none">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div className="flex flex-col space-y-4">

@@ -19,11 +19,10 @@ export default function Navbar() {
                             <Dropdown.Item><NavbarLayout.Link href="#">Changement de serrures</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
-                    <NavbarLayout.Link href="#">
+                    <NavbarLayout.Link>
                         <Dropdown label="Rénovation" arrowIcon={true} inline>
                             <Dropdown.Item><NavbarLayout.Link href="/travaux-de-renovation">Travaux de rénovation</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Revêtements</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Revêtements</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/revetement-sol">Revêtements</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Plâtrerie</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Peinture</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Menuiserie</NavbarLayout.Link></Dropdown.Item>
