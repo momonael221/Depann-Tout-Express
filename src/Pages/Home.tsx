@@ -8,7 +8,7 @@ import Plomberie from '../assets/videos/plomberie.mp4'
 import Amenagement from '../assets/videos/amenagement.mp4'
 
 import Plombing from '../assets/img/plumbing.jpg';
-import Vitrerie from '../assets/img/vitrerie.jpg';
+import TravauxRenovation from '../assets/img/vitrerie.jpg';
 import Renovation from '../assets/img/renovation.jpg';
 
 import Isolation2 from "../assets/img/isolation2.jpg"
@@ -127,7 +127,7 @@ export default function Home() {
                             <Card img={Isolation} alt={Isolation} title="Isolation intérieure"/>
                         </div>
                         <div className="col-span-1">
-                            <Card img={Vitrerie} alt={Vitrerie} title="Vitrerie"/>
+                            <Card img={Vitrerie} alt={Vitrerie} title="TravauxRenovation"/>
                         </div>
                     </div>
                 </div>

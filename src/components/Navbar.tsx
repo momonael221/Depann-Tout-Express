@@ -20,7 +20,9 @@ export default function Navbar() {
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link href="#">
-                        <Dropdown label="Travaux de rénovation" arrowIcon={true} inline>
+                        <Dropdown label="Rénovation" arrowIcon={true} inline>
+                            <Dropdown.Item><NavbarLayout.Link href="/travaux-de-renovation">Travaux de rénovation</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="#">Revêtements</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Revêtements</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Plâtrerie</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="#">Peinture</NavbarLayout.Link></Dropdown.Item>
