@@ -13,20 +13,21 @@ export default function Navbar() {
                 </div>
                 <NavbarLayout.Collapse>
                     <NavbarLayout.Link href="/" active>Accueil</NavbarLayout.Link>
-                    <NavbarLayout.Link href="#">
+                    <NavbarLayout.Link>
                         <Dropdown label="Serrurerie" arrowIcon={true} inline>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Ouverture de portes</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Changement de serrures</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurerie">Travaux de serrurerie</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/depannage-serrurerie">Ouverture de portes</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/pose-serrure">Changement de serrures</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link>
                         <Dropdown label="Rénovation" arrowIcon={true} inline>
                             <Dropdown.Item><NavbarLayout.Link href="/travaux-de-renovation">Travaux de rénovation</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="/revetement-sol">Revêtements</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Plâtrerie</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Peinture</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Menuiserie</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Électricité</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/platerie">Plâtrerie</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/peinture">Peinture</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/menuiserie">Menuiserie</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/electricite">Électricité</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link>

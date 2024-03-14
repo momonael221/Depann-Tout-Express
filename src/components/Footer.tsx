@@ -18,7 +18,7 @@ export default function Footer() {
                         <FooterLayout.Brand href="/" src="/logo.jpg" alt="Depann-Tout-Express Logo"/>
                         <span className="text-gray-500 dark:text-white mb-4">Disponibilité: 24h/24 - 7j/7</span>
                         <div className="flex flex-wrap gap-2">
-                            <Button>Contactez-nous</Button>
+                            <Button size={"xl"} pill outline>Contactez-nous</Button>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-8 mt-8 sm:mt-4 md:grid-cols-3 sm:gap-6">

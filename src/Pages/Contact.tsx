@@ -25,7 +25,8 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="col-span-1">
-                    <p>Notre entreprise, Depann Tout Express, est spécialisée dans l’installation et le dépannage de serrurerie, ainsi que dans divers travaux de rénovation. Nous sommes fiers de vous offrir une gamme complète de services pour répondre à vos besoins en matière de sécurité et de rénovation.</p>
+                    <p>
+                        Notre société, Depann Tout Express, se concentre sur l'installation et la réparation de serrures, ainsi que sur une variété de travaux de rénovation. Nous sommes heureux de proposer une large gamme de services pour satisfaire vos exigences en termes de sécurité et d'amélioration de votre habitat.</p>
                     <ul className="list-disc ml-10 mt-3">
                         <li>pose de revêtements;</li>
                         <li>plâtrerie</li>
