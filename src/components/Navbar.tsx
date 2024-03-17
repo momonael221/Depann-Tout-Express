@@ -12,7 +12,7 @@ export default function Navbar() {
                     <NavbarLayout.Toggle />
                 </div>
                 <NavbarLayout.Collapse>
-                    <NavbarLayout.Link href="/" active>Accueil</NavbarLayout.Link>
+                    <NavbarLayout.Link href={"/"}>Accueil</NavbarLayout.Link>
                     <NavbarLayout.Link>
                         <Dropdown label="Serrurerie" arrowIcon={true} inline>
                             <Dropdown.Item><NavbarLayout.Link href="/serrurerie">Travaux de serrurerie</NavbarLayout.Link></Dropdown.Item>
@@ -38,6 +38,7 @@ export default function Navbar() {
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link href="/isolateur-interieure">Isolation intérieure</NavbarLayout.Link>
+                    <NavbarLayout.Link href="/isolateur">Vitrerie</NavbarLayout.Link>
                     <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
                     <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
                 </NavbarLayout.Collapse>
