@@ -1,6 +1,8 @@
-import {Breadcrumb, Button} from "flowbite-react";
 import {HiHome} from "react-icons/hi";
-import Contact from "../assets/img/contact.jpg";
+import {Breadcrumb, Button} from "flowbite-react";
+
+import Cadenas from "../assets/img/cadenas.jpg"
+import Serrurerie from "../assets/img/serrurerie.jpg"
 
 export default function DepannageSerrurerie() {
     return <>
@@ -21,16 +23,12 @@ export default function DepannageSerrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Votre dépannage de serrurerie <span
-                                className="font-light">à Roubaix dans les meilleurs délais</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous assurons un dépannage rapide de <span className="font-light">serrurerie à Roubaix</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>24h/24 et 7j/7, la société AAB Depann Tout Express intervient à Roubaix et dans les villes
-                            environnantes pour le dépannage de serrurerie. Et ce, que vous soyez un particulier, un
-                            professionnel ou le représentant d’une collectivité.</p>
-                        <p>Que votre porte soit bloquée ou que vous ayez oublié vos clés à l’intérieur de votre maison,
-                            nous nous rendons sur place dans les meilleurs délais!</p>
+                        <p>La société AAB Depann Tout Express assure des interventions 24h/24 et 7j/7 à Roubaix et dans les environs pour tout dépannage de serrurerie, que vous soyez un particulier, un professionnel ou un représentant d'une collectivité.</p>
+                        <p>Que votre porte soit bloquée ou que vous ayez accidentellement laissé vos clés à l'intérieur de votre maison, nous intervenons rapidement sur place!</p>
                     </div>
                 </div>
             </div>
@@ -41,18 +39,14 @@ export default function DepannageSerrurerie() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous intervenons et sécurisons vos
-                                ouvertures <span className="font-light">en cas d’effraction</span></h2>
-                            <p className={"text-lg"}>Vous avez subi un vol? Vous avez été victime d’une effraction ou
-                                d’une tentative d’effraction?</p>
-                            <p className={"text-lg"}>Si nous ne pouvons souvent remplacer votre serrure dans l’heure,
-                                nous assurons en revanche en urgence la sécurisation de vos bureaux ou de votre logement
-                                grâce à la pose de planches en bois, en acier ou en aluminium.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Pose de verrous et serrures</Button>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous intervenons rapidement pour sécuriser vos ouvertures <span className="font-light">en cas d’effraction</span></h2>
+                            <p className={"text-lg"}>Avez-vous été victime d'un cambriolage ou d'une tentative d'effraction?</p>
+                            <p className={"text-lg"}>Si nous ne pouvons pas toujours remplacer votre serrure immédiatement, nous pouvons cependant intervenir en urgence pour sécuriser vos bureaux ou votre domicile en installant des planches en bois, en acier ou en aluminium.</p>
+                            <Button href={"/pose-serrure"} className={"max-w-sm"} size={"xl"} pill outline>Pose de verrous et serrures</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Serrurerie} alt={Serrurerie}/>
                     </div>
                 </div>
             </div>
@@ -62,20 +56,17 @@ export default function DepannageSerrurerie() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Cadenas} alt={Cadenas}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Votre porte a claqué ou <span
-                                className="font-light">vous avez oublié vos clés</span> à l'intérieur de votre domicile?
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>
+                                Votre porte s'est refermée brusquement ou vous avez <span className="font-light">accidentellement laissé vos clés</span> à
+                                l'intérieur de votre domicile?
                             </h2>
-                            <p>Vous rentrez à votre domicile et vous ne retrouvez pas les clés pour ouvrir votre porte
-                                d’entrée? Vous pensez les avoir oubliées à l’intérieur de votre logement? Spécialistes
-                                dans le domaine de la serrurerie, nos professionnels interviennent rapidement.</p>
-                            <p>Renseignez-vous: il est possible que votre assurance couvre les frais de dépannage, le
-                                remplacement de vos clés, la première heure d’intervention ou encore les frais de
-                                déplacement de votre serrurier.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Intervention de serrurerie</Button>
+                            <p>Vous rentrez chez vous et vous vous rendez compte que vous avez perdu vos clés pour ouvrir votre porte d'entrée ? Vous pensez les avoir laissées à l'intérieur de votre logement ? Nos experts en serrurerie interviennent rapidement pour résoudre ce problème.</p>
+                            <p>Informez-vous : Il se peut que votre assurance prenne en charge les frais de dépannage, le remplacement de vos clés, la première heure d'intervention, voire les frais de déplacement de votre serrurier.</p>
+                            <Button href={"/depannage-serrurerie"} className={"max-w-sm"} size={"xl"} pill outline>Intervention de serrurerie</Button>
                         </div>
                     </div>
                 </div>
@@ -87,15 +78,15 @@ export default function DepannageSerrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Découvrez tous nos services et prestations <span className="font-light">dans le domaine de la serrurerie</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Explorez l'ensemble de nos services et prestations <span className="font-light">dans le domaine de la serrurerie</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>Le choix d’une serrure fiable et solide est un facteur déterminant pour assurer la sécurité de votre maison, appartement ou local professionnel. Aussi, nos experts interviennent rapidement pour la pose de serrures et le remplacement de vos systèmes de sécurité trop anciens.</p>
-                        <p>Contactez notre équipe pour toute question ou demande d’informations ou de devis gratuit. N’hésitez pas à nous consulter pour en savoir plus concernant nos prestations et tarifs!</p>
+                        <p>Opter pour une serrure fiable et robuste est essentiel pour garantir la sécurité de votre domicile ou de votre local professionnel. C'est pourquoi nos experts interviennent rapidement pour installer des serrures de qualité et remplacer vos anciens systèmes de sécurité.</p>
+                        <p>N'hésitez pas à contacter notre équipe pour toute question ou demande d'informations, ainsi que pour obtenir un devis gratuit. Nous sommes à votre disposition pour vous fournir des détails supplémentaires sur nos services et nos tarifs!</p>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <Button size={"xl"} pill outline>Devis de dépannage</Button>
+                        <Button href={"/contact"} size={"xl"} className={"max-w-xs"} pill outline>Devis de dépannage</Button>
                     </div>
                 </div>
             </div>
