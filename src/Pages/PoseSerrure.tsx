@@ -1,6 +1,8 @@
-import {Breadcrumb, Button} from "flowbite-react";
 import {HiHome} from "react-icons/hi";
-import Contact from "../assets/img/contact.jpg";
+import {Breadcrumb, Button} from "flowbite-react";
+
+import Serrure1 from "../assets/img/door-closed.jpg"
+import Serrure2 from "../assets/img/key-door-lock-still-life.jpg"
 
 export default function PoseSerrure() {
     return <>
@@ -21,28 +23,24 @@ export default function PoseSerrure() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe assure la pose de
-                                serrures <span
-                                    className="font-light">à Roubaix et ses environs</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe se charge de l'installation de serrures <span className="font-light">à Roubaix et dans ses environs</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>Afin de protéger au mieux vos biens et votre famille, déjouez toute infraction grâce à la
-                            pose de serrures solides et hautement sécurisées.</p>
+                        <p>Pour assurer la protection optimale de vos biens et de votre famille, prévenez toute tentative d'intrusion en optant pour l'installation de serrures robustes et hautement sécurisées.</p>
                         <div>
-                            <p>Nous vous conseillons en tenant compte de vos besoins et contraintes budgétaires:</p>
+                            <p>Nous vous offrons des conseils personnalisés qui prennent en compte vos besoins et vos contraintes budgétaires:</p>
                             <ul className="list-disc ml-10">
-                                <li>serrures à clé 3, 5 ou 7 points;</li>
-                                <li>serrures à code;</li>
-                                <li>serrures à carte;</li>
-                                <li>serrures électriques;</li>
-                                <li>serrures magnétiques;</li>
-                                <li>serrures antipanique;</li>
-                                <li>serrures connectées…</li>
+                                <li>Serrures avec système de verrouillage à clé à 3, 5 ou 7 points.</li>
+                                <li>Serrures à combinaison numérique.</li>
+                                <li>Serrures utilisant des cartes d'accès.</li>
+                                <li>Serrures fonctionnant à l'électricité.</li>
+                                <li>Serrures utilisant un mécanisme magnétique.</li>
+                                <li>Serrures de sortie de secours.</li>
+                                <li>Serrures intelligentes connectées...</li>
                             </ul>
                         </div>
-                        <p>Il existe de nombreux modèles pour vous satisfaire. Nous nous adaptons à vos attentes en
-                            matière de sécurité pour votre logement ou vos locaux professionnels.</p>
+                        <p>Il existe une variété de modèles pour répondre à vos besoins. Nous nous ajustons à vos exigences en termes de sécurité pour votre domicile ou vos locaux professionnels.</p>
                     </div>
                 </div>
             </div>
@@ -53,20 +51,15 @@ export default function PoseSerrure() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Des équipements modernes, <span
-                                className="font-light">résistants et durables</span></h2>
-                            <p className={"text-lg"}>Nos équipements sont certifiés par des marques reconnues dans le
-                                domaine de la serrurerie. Au besoin, nous remplaçons le pêne jusqu’au verrou et nous
-                                nous assurons que votre système soit résistant contre le perçage par un cambrioleur ou
-                                l’utilisation d’un crochet.</p>
-                            <p className={"text-lg"}>Contactez-nous dès maintenant pour prévoir vos travaux ou pour un
-                                dépannage express – que vous soyez un particulier ou un professionnel.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Nous dépannons votre
-                                serrure</Button>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Des équipements contemporains, <span
+                                className="font-light">solides et fiables</span></h2>
+                            <p className={"text-lg"}>Nos équipements sont agréés par des marques réputées dans le secteur de la serrurerie. Si nécessaire, nous effectuons le remplacement du pêne jusqu'au verrou, garantissant ainsi la résistance de votre système contre le perçage et l'effraction.</p>
+                            <p className={"text-lg"}>N'hésitez pas à nous contacter dès maintenant pour organiser vos travaux ou pour un dépannage rapide, que vous soyez un particulier ou un professionnel.</p>
+                            <Button href={"/depannage-serrurerie"} className={"max-w-sm"} size={"xl"} pill outline>Nous dépannons votre serrure</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Serrure1} alt={Serrure1}/>
                     </div>
                 </div>
             </div>
@@ -76,21 +69,14 @@ export default function PoseSerrure() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Serrure2} alt={Serrure2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous assurons l’installation de <span
-                                className="font-light">cylindres de haute sûreté</span>
-                            </h2>
-                            <p>Afin de lutter efficacement contre le crochetage et l’arrachage de portes, nous
-                                installons des clés et des <strong>cylindres brevetés</strong>, répondant aux normes
-                                françaises et européennes de qualité. Bénéficiez de la meilleure qualité de sécurité du
-                                marché!</p>
-                            <p>Les cylindres que nous installons permettent de renforcer votre porte d’entrée grâce à
-                                différents niveaux de protection. Le plus élevé de ces niveaux est le barillet de haute
-                                sécurité.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Serrurerie</Button>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous garantissons la mise en place de <span className="font-light">cylindres offrant</span> un niveau de sécurité élevé.</h2>
+                            <p>Pour contrer efficacement le crochetage et l'arrachage de portes, nous mettons en place des clés et des <strong>cylindres brevetés</strong> conformes aux normes françaises et européennes en matière de qualité. Optez pour la meilleure qualité de sécurité disponible sur le marché !</p>
+                            <p>Les cylindres que nous posons renforcent votre porte d'entrée en offrant différents niveaux de protection, le plus élevé étant le barillet de haute sécurité.</p>
+                            <Button href={"/serrurerie"} className={"max-w-sm"} size={"xl"} pill outline>Serrurerie</Button>
                         </div>
                     </div>
                 </div>
@@ -102,16 +88,16 @@ export default function PoseSerrure() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Contactez AAB Depann Tout Express <span className="font-light">pour une intervention de qualité</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour une intervention de qualité, <span className="font-light">contactez Depann Tout Express</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>Vous aimeriez prendre rendez-vous? Vous avez besoin de conseils ou d’informations complémentaires concernant les systèmes de sécurité à privilégier?</p>
-                        <p>La société AAB Depann Tout Express se tient à votre disposition! N’hésitez pas à contacter nos experts qualifiés et expérimentés: ils se feront un plaisir de répondre à toutes vos questions.</p>
-                        <p>Enfin, sachez que nous réalisons une étude gratuite et personnalisée sur demande.</p>
+                        <p>Vous souhaitez planifier un rendez-vous ? Vous avez besoin de conseils ou d'informations supplémentaires sur les systèmes de sécurité à privilégier?</p>
+                        <p>La société AAB Depann Tout Express est là pour vous! N'hésitez pas à contacter nos experts qualifiés et expérimentés : ils seront ravis de répondre à toutes vos questions.</p>
+                        <p>Enfin, nous proposons une étude personnalisée et gratuite sur demande.</p>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <Button size={"xl"} pill outline>Une pose de serrure ?</Button>
+                        <Button href={"/contact"} className={"max-w-xs"} size={"xl"} pill outline>Une pose de serrure?</Button>
                     </div>
                 </div>
             </div>
