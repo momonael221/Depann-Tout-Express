@@ -38,7 +38,7 @@ export default function Navbar() {
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link href="/isolateur-interieure">Isolation intérieure</NavbarLayout.Link>
-                    <NavbarLayout.Link href="/isolateur">Vitrerie</NavbarLayout.Link>
+                    <NavbarLayout.Link href="/vitrerie">Vitrerie</NavbarLayout.Link>
                     <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
                     <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
                 </NavbarLayout.Collapse>
