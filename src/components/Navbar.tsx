@@ -3,7 +3,7 @@ import {Button, DarkThemeToggle, Dropdown, Navbar as NavbarLayout} from 'flowbit
 export default function Navbar() {
     return (
         <header className="flex flex-col">
-            <NavbarLayout fluid={false} border={true}>
+            <NavbarLayout className={"gap-8"} fluid={false} border={true}>
                 <NavbarLayout.Brand href="/">
                     <img src="/logo.jpg" className="mr-3 h-6 sm:h-9" alt="Depqnn Tout Express Logo" />
                 </NavbarLayout.Brand>
@@ -28,6 +28,7 @@ export default function Navbar() {
                             <Dropdown.Item><NavbarLayout.Link href="/peinture">Peinture</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="/menuiserie">Menuiserie</NavbarLayout.Link></Dropdown.Item>
                             <Dropdown.Item><NavbarLayout.Link href="/electricite">Électricité</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/isolateur-interieure">Isolation intérieure</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link>
@@ -37,10 +38,13 @@ export default function Navbar() {
                             <Dropdown.Item><NavbarLayout.Link href="#">Remplacement de cumulus</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
-                    <NavbarLayout.Link href="/isolateur-interieure">Isolation intérieure</NavbarLayout.Link>
                     <NavbarLayout.Link href="/vitrerie">Vitrerie</NavbarLayout.Link>
-                    <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
-                    <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
+                    <NavbarLayout.Link>
+                        <Dropdown label="Contact" arrowIcon={true} inline>
+                            <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
+                            <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
+                        </Dropdown>
+                    </NavbarLayout.Link>
                 </NavbarLayout.Collapse>
             </NavbarLayout>
 
