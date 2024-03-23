@@ -41,8 +41,8 @@ export default function Navbar() {
                     <NavbarLayout.Link href="/vitrerie">Vitrerie</NavbarLayout.Link>
                     <NavbarLayout.Link>
                         <Dropdown label="Contact" arrowIcon={true} inline>
-                            <NavbarLayout.Link href="/about">À propos</NavbarLayout.Link>
-                            <NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link>
+                            <Dropdown.Item><NavbarLayout.Link href="/about">À propos</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/contact">Contactez-nous</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
                 </NavbarLayout.Collapse>
