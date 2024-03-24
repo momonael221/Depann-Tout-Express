@@ -25,62 +25,60 @@ import CuttingBoard from "../assets/icons/cutting-board.svg"
 export default function Home() {
     return <>
         <section>
-            {/*<div className="h-56 sm:h-64 xl:h-80 2xl:h-96">*/}
-            <div className="h-[700px]">
+            <div className="sm:h-64 lg:h-96 xl:h-[600px]">
                 <Carousel pauseOnHover>
                     <div
                         className="relative flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                        <img className="object-contain w-full" src={Serrurerie} alt="serrurerie.jpg"/>
+                        <img className="object-cover w-full h-full" src={Serrurerie} alt="serrurerie.jpg"/>
                         <div
                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flex flex-col items-center justify-center space-y-6">
-                            <h1 className="text-7xl text-center">Serrurerie</h1>
-                            <Button href={"/serrurerie"} color={"gray"} pill size={"xl"}>En Savoir Plus</Button>
+                            <h1 className="text-4xl lg:text-7xl text-center">Serrurerie</h1>
+                            <Button href={"/serrurerie"} color={"light"} pill size={"xl"}>En Savoir Plus</Button>
                         </div>
                     </div>
                     <div
                         className="relative flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                        <video className="w-full" autoPlay muted loop>
+                        <video className="object-cover w-full h-full" autoPlay muted loop>
                             <source src={Plomberie} type="video/mp4"/>
                         </video>
                         <div
                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flex flex-col items-center justify-center space-y-6">
-                            <h1 className="text-7xl text-center">Plomberie</h1>
-                            <Button href={"/reparation-plomberie"} color={"gray"} pill size={"xl"}>En Savoir Plus</Button>
+                            <h1 className="text-4xl lg:text-7xl text-center">Plomberie</h1>
+                            <Button href={"/reparation-plomberie"} color={"light"} pill size={"xl"}>En Savoir Plus</Button>
                         </div>
                     </div>
                     <div
                         className="relative flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                        <video className="w-full" autoPlay muted loop>
+                        <video className="object-cover w-full h-full" autoPlay muted loop>
                             <source src={Amenagement} type="video/mp4"/>
                         </video>
                         <div
                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flex flex-col items-center justify-center space-y-6">
-                            <h1 className="text-7xl text-center">Rénovation et aménagement intérieur</h1>
-                            <Button href={"/travaux-de-renovation"} color={"gray"} pill size={"xl"}>En Savoir Plus</Button>
+                            <h1 className="text-4xl lg:text-7xl text-center">Rénovation et aménagement intérieur</h1>
+                            <Button href={"/travaux-de-renovation"} color={"light"} pill size={"xl"}>En Savoir Plus</Button>
                         </div>
                     </div>
                     <div
                         className="relative flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                        <img className="object-contain w-full" src={Isolation} alt="serrurerie.jpg"/>
+                        <img className="object-cover w-full h-full" src={Isolation} alt="serrurerie.jpg"/>
                         <div
                             className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white flex flex-col items-center justify-center space-y-6">
-                            <h1 className="text-7xl text-center">Isolation intérieure</h1>
-                            <Button href={"/isolateur-interieure"} color={"gray"} pill size={"xl"}>En Savoir Plus</Button>
+                            <h1 className="text-4xl lg:text-7xl text-center">Isolation intérieure</h1>
+                            <Button href={"/isolateur-interieure"} color={"light"} pill size={"xl"}>En Savoir Plus</Button>
                         </div>
                     </div>
                 </Carousel>
             </div>
-            <div
-                className="bg-cyan-700 text-white font-medium w-full flex items-center justify-center py-4 border-b dark:border-gray-800">
+            <div className="bg-cyan-700 dark:bg-gray-800 text-white font-medium w-full flex items-center justify-center py-4 border-b dark:border-gray-800">
                 <h2>Nous sommes disponibles 24h24 / 7j7</h2>
             </div>
         </section>
 
-        <section className="my-20">
+        <section className="my-10 lg:my-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-2 gap-10">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="col-span-1 space-y-4">
-                        <Blockquote>
+                        <Blockquote className={"text-lg font-light lg:text-xl"}>
                             <svg className="mb-4 h-8 w-8 text-gray-400 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
                                 <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
                             </svg>
@@ -91,7 +89,7 @@ export default function Home() {
                             et nous travaillons avec détermination pour atteindre l'excellence dans chaque projet.
                         </Blockquote>
                         <div className="pt-3">
-                            <Button href={"/about"} pill outline size={"xl"} className="max-w-xs">Qui sommes-nous?</Button>
+                            <Button href={"/about"} pill outline size={"xl"} className="max-w-xs mx-auto lg:mx-0">Qui sommes-nous?</Button>
                         </div>
                     </div>
                     <div className="col-span-1">
@@ -104,11 +102,11 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-20">
+        <section className="my-10 lg:my-20">
             <div className="container mx-auto">
-                <h2 className="text-center text-3xl font-medium mt-20">Nos domaines d’intervention</h2>
+                <h2 className="text-center text-xl lg:text-3xl dark:text-white font-medium">Nos domaines d’intervention</h2>
                 <div className="mt-16">
-                    <div className="grid grid-cols-5 gap-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
                         <div className="col-span-1">
                             <a href={"/serrurerie"}>
                                 <Card img={Serrurerie} alt={Serrurerie} title="Serrurerie"/>
@@ -139,10 +137,10 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="bg-cyan-700 w-full my-20 py-10">
+        <section className="bg-cyan-700 dark:bg-gray-800 w-full my-20 py-10">
             <div className="container mx-auto space-y-10">
                 <h2 className={"text-center text-white text-2xl font-bold uppercase"}>Nos points forts</h2>
-                <div className="grid grid-cols-3 gap-5">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                     <div className="col-span-1">
                         <div className="flex flex-col items-center justify-center space-y-4">
                             <img className="w-20 h-20" src={Hours} alt={Hours}/>
@@ -165,15 +163,15 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-20 w-full">
+        <section className="mb-10 lg:my-20 w-full">
             <div className="container mx-auto">
-                <div className="grid grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous sommes en mesure d'effectuer des interventions pour <span className="font-light">une variété de travaux liés à la serrurerie</span></h2>
-                            <p className={"text-lg"}>Nous assurons un service de <strong>dépannage en serrurerie</strong> disponible 24h/24 et 7j/7, ainsi que l'installation de serrures et de verrous.</p>
-                            <p className={"text-lg"}>Si votre domicile a récemment été victime d'une intrusion et que vous cherchez à renforcer sa sécurité, nous proposons une solution de fermeture temporaire en fixant solidement des planches en bois, en aluminium ou en acier sur les ouvertures.</p>
-                            <Button href={"/serrurie"} className={"max-w-xs"} size={"xl"} pill outline>Serrurerie</Button>
+                            <h2 className={"text-cyan-700 dark:text-white text-3xl font-bold"}>Nous sommes en mesure d'effectuer des interventions pour <span className="font-light">une variété de travaux liés à la serrurerie</span></h2>
+                            <p className={"text-lg dark:text-white"}>Nous assurons un service de <strong>dépannage en serrurerie</strong> disponible 24h/24 et 7j/7, ainsi que l'installation de serrures et de verrous.</p>
+                            <p className={"text-lg dark:text-white"}>Si votre domicile a récemment été victime d'une intrusion et que vous cherchez à renforcer sa sécurité, nous proposons une solution de fermeture temporaire en fixant solidement des planches en bois, en aluminium ou en acier sur les ouvertures.</p>
+                            <Button href={"/serrurie"} className={"max-w-xs w-full mx-auto lg:mx-0"} size={"xl"} pill outline>Serrurerie</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
@@ -183,18 +181,18 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-20 w-full bg-cyan-700 text-white">
+        <section className="my-20 w-full bg-cyan-700 dark:bg-gray-800 text-white">
             <div className="container mx-auto">
-                <div className="grid grid-cols-2 items-center gap-32">
-                    <div className={"col-span-1 py-20"}>
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-32">
+                    <div className={"col-span-1 pt-10 lg:py-20"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-white text-3xl font-bold"}><span className="font-light">Notre équipe se dédie à la réalisation de </span> vos projets de rénovation et d'aménagement intérieur</h2>
                             <p className={"text-lg"}>Spécialistes des <a href={"/travaux-de-renovation"} className="underline">rénovations intérieures et extérieures</a>, nos artisans transforment et améliorent votre maison, appartement ou espace professionnel en les embellissant, les agrandissant et les aménageant selon vos besoins.</p>
                             <p className={"text-lg"}>En cas de sinistre nécessitant une remise en état, l'installation de revêtements ou de cloisons, ou encore la peinture de vos murs, notre équipe intervient rapidement pour effectuer vos travaux de maintenance immobilière.</p>
-                            <Button color={"light"} href={"/travaux-de-renovation"} className={"max-w-[275px]"} size={"xl"} pill>Aménagement & rénovation</Button>
+                            <Button color={"light"} href={"/travaux-de-renovation"} className={"max-w-[275px] w-full mx-auto lg:mx-0"} size={"xl"} pill>Aménagement & rénovation</Button>
                         </div>
                     </div>
-                    <div className={"col-span-1 bg-cyan-600 bg-opacity-80 h-full px-14 py-10 space-y-10"}>
+                    <div className={"col-span-1 lg:bg-cyan-600 lg:dark:bg-gray-700 bg-opacity-80 h-full lg:px-14 pb-10 lg:py-10 space-y-10"}>
                         <div className={"flex flex-col"}>
                             <img className="max-w-20" src={CuttingBoard} alt={CuttingBoard}/>
                             <h2 className={"text-white text-xl font-normal mb-4"}>Installation de revêtements, travaux de plâtrerie et services électriques.</h2>
@@ -219,35 +217,35 @@ export default function Home() {
 
         <section className="my-20 w-full">
             <div className="container mx-auto">
-                <div className="grid grid-cols-2 items-center gap-20">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-20">
                     <div className="col-span-1">
                         <img className={"rounded-lg"} src={Isolation2} alt={Isolation2}/>
                     </div>
                     <div className="col-span-1">
                         <div className={"flex flex-col"}>
-                            <h2 className={"text-cyan-700 text-3xl font-normal mb-4"}>N'hésitez pas à <span className="font-bold">nous contacter</span> pour vos projets d'isolation intérieure.</h2>
+                            <h2 className={"text-cyan-700 dark:text-white text-3xl font-normal mb-4"}>N'hésitez pas à <span className="font-bold">nous contacter</span> pour vos projets d'isolation intérieure.</h2>
                             <div className="space-y-5 font-normal">
-                                <p className={"text-lg"}>Vous désirez améliorer l'efficacité énergétique de votre maison? Contactez nos spécialistes pour réaliser vos travaux d'isolation intérieure.</p>
-                                <p className={"text-lg"}>Fort de notre expertise et de notre maîtrise technique, nous vous orientons vers les matériaux isolants les mieux adaptés à vos besoins et à votre budget.</p>
-                                <p className={"text-lg"}>Faites des économies significatives sur vos dépenses de chauffage !</p>
-                                <Button href={"/isolateur-interieure"} className="max-w-xs" size={"xl"} pill outline>Isolation</Button>
+                                <p className={"text-lg dark:text-white"}>Vous désirez améliorer l'efficacité énergétique de votre maison? Contactez nos spécialistes pour réaliser vos travaux d'isolation intérieure.</p>
+                                <p className={"text-lg dark:text-white"}>Fort de notre expertise et de notre maîtrise technique, nous vous orientons vers les matériaux isolants les mieux adaptés à vos besoins et à votre budget.</p>
+                                <p className={"text-lg dark:text-white"}>Faites des économies significatives sur vos dépenses de chauffage !</p>
                             </div>
+                            <Button href={"/isolateur-interieure"} className="max-w-xs w-full mx-auto lg:mx-0 mt-8" size={"xl"} pill outline>Isolation</Button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 py-20">
+        <section className="w-full bg-gray-100 dark:bg-gray-900 lg:pb-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Détection de fuites, remplacement de robinets <span className="font-light">et de chauffe-eau...</span></h2>
-                            <p className={"text-lg"}>Vous êtes confronté à un dégât des eaux ? Vous cherchez à localiser une fuite ? Vous envisagez de remplacer votre ancien chauffe-eau ? Notre entreprise intervient rapidement pour vous dépanner !</p>
-                            <p className={"text-lg"}>Nous identifions l'origine de votre fuite, que ce soit au niveau des canalisations, de la robinetterie ou du compteur d'eau, et effectuons les réparations dans les meilleurs délais.</p>
-                            <p className={"text-lg"}>À la recherche de professionnels pour obtenir des réponses à toutes vos questions ? Notre équipe d'artisans est là pour vous aider. N'hésitez pas à <a href="/contact" className="text-cyan-700 underline">nous contacter!</a></p>
-                            <Button href={"/reparation-plomberie"} className={"max-w-xs"} size={"xl"} pill outline>Travaux de plomberie</Button>
+                            <h2 className={"text-cyan-700 dark:text-white text-3xl font-bold"}>Détection de fuites, remplacement de robinets <span className="font-light">et de chauffe-eau...</span></h2>
+                            <p className={"text-lg dark:text-white"}>Vous êtes confronté à un dégât des eaux ? Vous cherchez à localiser une fuite ? Vous envisagez de remplacer votre ancien chauffe-eau ? Notre entreprise intervient rapidement pour vous dépanner !</p>
+                            <p className={"text-lg dark:text-white"}>Nous identifions l'origine de votre fuite, que ce soit au niveau des canalisations, de la robinetterie ou du compteur d'eau, et effectuons les réparations dans les meilleurs délais.</p>
+                            <p className={"text-lg dark:text-white"}>À la recherche de professionnels pour obtenir des réponses à toutes vos questions ? Notre équipe d'artisans est là pour vous aider. N'hésitez pas à <a href="/contact" className="text-cyan-700 dark:text-white underline">nous contacter!</a></p>
+                            <Button href={"/reparation-plomberie"} className={"max-w-xs w-full mx-auto lg:mx-0"} size={"xl"} pill outline>Travaux de plomberie</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
