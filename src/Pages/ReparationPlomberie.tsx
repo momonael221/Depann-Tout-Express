@@ -1,24 +1,26 @@
 import {HiHome} from "react-icons/hi";
-import Contact from "../assets/img/contact.jpg";
 import {Breadcrumb, Button} from "flowbite-react";
+
+import Plomberie1 from "../assets/img/plomberie1.jpg";
+import Plomberie2 from "../assets/img/plomberie2.jpg";
+import Plomberie3 from "../assets/img/plomberie3.jpg";
 
 export default function ReparationPlomberie() {
     return <>
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-gray-900 dark:text-white text-2xl font-light">Services de Plomberie
-                        Professionnels</h2>
+                    <h2 className="text-gray-900 dark:text-white text-2xl font-light">Plomberie Professionnels</h2>
                     <Breadcrumb aria-label="Chemin de sous-page">
                         <Breadcrumb.Item href="/" icon={HiHome}>Accueil</Breadcrumb.Item>
-                        <Breadcrumb.Item>Services de Plomberie Professionnels</Breadcrumb.Item>
+                        <Breadcrumb.Item>Plomberie Professionnels</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
             </div>
         </section>
 
         <section className="w-full">
-            <div className="container mx-auto my-20">
+            <div className="container mx-auto my-10 lg:my-20">
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
@@ -39,9 +41,9 @@ export default function ReparationPlomberie() {
             </div>
         </section>
 
-        <section className="w-full py-20">
+        <section className="w-full pb-10 lg:pb-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous sommes à votre service pour votre
@@ -57,17 +59,17 @@ export default function ReparationPlomberie() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Plomberie1} alt={Plomberie1}/>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 py-20">
+        <section className="w-full bg-gray-100 dark:bg-gray-800 py-10 lg:py-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Plomberie2} alt={Plomberie2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
@@ -86,9 +88,9 @@ export default function ReparationPlomberie() {
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 py-20">
+        <section className="w-full py-10 lg:py-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe est spécialisée dans
@@ -107,7 +109,7 @@ export default function ReparationPlomberie() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Plomberie3} alt={Plomberie3}/>
                     </div>
                 </div>
             </div>

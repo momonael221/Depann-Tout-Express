@@ -1,23 +1,25 @@
 import {HiHome} from "react-icons/hi";
 import {Breadcrumb, Button} from "flowbite-react";
-import Contact from "../assets/img/contact.jpg";
+
+import Menuiserie1 from "../assets/img/Menuiserie1.jpg";
+import Menuiserie2 from "../assets/img/Menuiserie2.jpg";
 
 export default function Menuiserie() {
     return <>
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-gray-900 dark:text-white text-2xl font-light">Travaux de Menuiserie</h2>
+                    <h2 className="text-2xl font-light">Menuiserie</h2>
                     <Breadcrumb aria-label="Chemin de sous-page">
                         <Breadcrumb.Item href="/" icon={HiHome}>Page d'accueil</Breadcrumb.Item>
-                        <Breadcrumb.Item>Travaux de Menuiserie</Breadcrumb.Item>
+                        <Breadcrumb.Item>Menuiserie</Breadcrumb.Item>
                     </Breadcrumb>
                 </div>
             </div>
         </section>
 
         <section className="w-full">
-            <div className="container mx-auto my-20">
+            <div className="container mx-auto my-10 lg:my-20">
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
@@ -37,9 +39,9 @@ export default function Menuiserie() {
             </div>
         </section>
 
-        <section className="w-full my-20">
+        <section className="w-full my-10 lg:my-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre spécialiste en menuiserie <span
@@ -55,17 +57,17 @@ export default function Menuiserie() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Menuiserie1} alt={Menuiserie1}/>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 dark:bg-gray-800 py-20">
+        <section className="w-full bg-gray-100 dark:bg-gray-800 py-10 lg:py-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"rounded-lg"} src={Menuiserie2} alt={Menuiserie2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
@@ -92,7 +94,7 @@ export default function Menuiserie() {
         </section>
 
         <section className="w-full">
-            <div className="container mx-auto my-20">
+            <div className="container mx-auto my-10 lg:my-20">
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">

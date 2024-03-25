@@ -1,8 +1,6 @@
 import {Button, Footer as FooterLayout} from 'flowbite-react';
 import {
     BsFacebook,
-    BsInstagram,
-    BsTwitter,
     BsHouse,
     BsPhone,
     BsTelephone,
@@ -96,9 +94,9 @@ export default function Footer() {
                 <div className="w-full sm:flex sm:items-center sm:justify-between">
                     <FooterLayout.Copyright href="/" by="DEPANN TOUT EXPRESS™" year={new Date().getFullYear()}/>
                     <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                        <FooterLayout.Icon href="#" icon={BsFacebook}/>
-                        <FooterLayout.Icon href="#" icon={BsInstagram}/>
-                        <FooterLayout.Icon href="#" icon={BsTwitter}/>
+                        <FooterLayout.Icon target={"_blank"} href="https://www.facebook.com/profile.php?id=100067188132092" icon={BsFacebook}/>
+                        {/*<FooterLayout.Icon href="#" icon={BsInstagram}/>
+                        <FooterLayout.Icon href="#" icon={BsTwitter}/>*/}
                     </div>
                 </div>
             </div>

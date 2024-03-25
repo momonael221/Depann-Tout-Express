@@ -10,7 +10,7 @@ export default function Serrurerie() {
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-gray-900 dark:text-white text-2xl font-light">Serrurerie</h2>
+                    <h2 className="text-2xl font-light">Serrurerie</h2>
                     <Breadcrumb aria-label="Subpage breadcrumb">
                         <Breadcrumb.Item href="/" icon={HiHome}>Accueil</Breadcrumb.Item>
                         <Breadcrumb.Item>Serrurerie</Breadcrumb.Item>
@@ -20,7 +20,7 @@ export default function Serrurerie() {
         </section>
 
         <section className="w-full">
-            <div className="container mx-auto my-20">
+            <div className="container mx-auto my-10 lg:my-20">
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
@@ -36,9 +36,9 @@ export default function Serrurerie() {
             </div>
         </section>
 
-        <section className="w-full my-20">
+        <section className="w-full my-10 lg:my-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>À la recherche d'un serrurier pour l'installation d'une serrure ou d'un verrou ?</h2>
@@ -54,9 +54,9 @@ export default function Serrurerie() {
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 dark:bg-gray-800 py-20">
+        <section className="w-full bg-gray-100 dark:bg-gray-800 py-10 lg:py-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <img className={"w-full max-h-[400px] object-cover rounded-lg"} src={Contact} alt={Contact}/>
                     </div>
@@ -75,9 +75,9 @@ export default function Serrurerie() {
             </div>
         </section>
 
-        <section className="w-full my-20">
+        <section className="w-full my-10 lg:my-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre serrurier se rend rapidement disponible pour assurer <span className="font-light">le dépannage de votre serrure</span></h2>

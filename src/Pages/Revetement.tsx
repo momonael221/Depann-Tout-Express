@@ -8,7 +8,7 @@ export default function Revetement() {
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-gray-900 dark:text-white text-2xl font-light">Revêtements</h2>
+                    <h2 className="text-2xl font-light">Revêtements</h2>
                     <Breadcrumb aria-label="Subpage breadcrumb">
                         <Breadcrumb.Item href="/" icon={HiHome}>Accueil</Breadcrumb.Item>
                         <Breadcrumb.Item>Revêtements</Breadcrumb.Item>
@@ -18,7 +18,7 @@ export default function Revetement() {
         </section>
 
         <section className="w-full">
-            <div className="container mx-auto my-20">
+            <div className="container mx-auto my-10 lg:my-20">
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
@@ -33,9 +33,9 @@ export default function Revetement() {
             </div>
         </section>
 
-        <section className="w-full py-20">
+        <section className="w-full lg:pb-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Installation de revêtements de sol: <span className="font-light">nous vous accompagnons dans votre sélection</span></h2>
@@ -51,9 +51,9 @@ export default function Revetement() {
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 py-20">
+        <section className="w-full bg-gray-100 dark:bg-gray-800 py-10 lg:py-20">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-32">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <img className={"rounded-lg"} src={RevetementMureaux} alt={RevetementMureaux}/>
                     </div>
@@ -71,7 +71,7 @@ export default function Revetement() {
         </section>
 
         <section className="w-full">
-            <div className="container mx-auto my-20">
+            <div className="container mx-auto my-10 lg:my-20">
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">

@@ -31,13 +31,7 @@ export default function Navbar() {
                             <Dropdown.Item><NavbarLayout.Link href="/isolateur-interieure">Isolation intérieure</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
-                    <NavbarLayout.Link>
-                        <Dropdown label="Plomberie" arrowIcon={true} inline>
-                            <Dropdown.Item><NavbarLayout.Link href="/reparation-plomberie">Réparation plomberie</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Installation et réparation de plomberie</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="#">Remplacement de cumulus</NavbarLayout.Link></Dropdown.Item>
-                        </Dropdown>
-                    </NavbarLayout.Link>
+                    <NavbarLayout.Link href="/reparation-plomberie">Réparation plomberie</NavbarLayout.Link>
                     <NavbarLayout.Link href="/vitrerie">Vitrerie</NavbarLayout.Link>
                     <NavbarLayout.Link>
                         <Dropdown label="Contact" arrowIcon={true} inline>
