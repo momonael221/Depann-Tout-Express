@@ -1,4 +1,4 @@
-import {Button, Footer as FooterLayout} from 'flowbite-react';
+import {Button, Footer as FooterLayout, useThemeMode} from 'flowbite-react';
 import {
     BsFacebook,
     BsHouse,
@@ -8,13 +8,16 @@ import {
 } from 'react-icons/bs';
 
 export default function Footer() {
+    const {mode} = useThemeMode();
+
     return (
         <FooterLayout className="rounded-none border-t border-gray-100 dark:border-gray-700" container>
             <div className="w-full container mx-auto rounded-none">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8 ju sm:mt-4 md:grid-cols-2 lg:grid-cols-4 sm:gap-6">
                         <div className="flex flex-col space-y-4">
-                            <FooterLayout.Brand href="/" src="/logo.jpg" alt="Depann-Tout-Express Logo"/>
+                            {mode === 'light' ? <FooterLayout.Brand href="/" src="/logo-light.png" alt="Depann-Tout-Express Logo"/>
+                                : <FooterLayout.Brand href="/" src="/logo-dark.png" alt="Depann-Tout-Express Logo"/>}
                             <span className="text-gray-500 dark:text-white mb-4">Disponibilité: 24h/24 - 7j/7</span>
                             <div className="flex flex-wrap gap-2">
                                 <Button href={"/contact"} size={"xl"} pill outline>Contactez-nous</Button>
