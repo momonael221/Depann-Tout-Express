@@ -34,7 +34,7 @@ export default function IsolateurInterieure() {
                             améliorer
                             votre isolation intérieure? Vous voulez améliorer votre confort thermique et acoustique au
                             quotidien? Vous souhaitez contribuer à la protection de l'environnement?</p>
-                        <p>Contactez AAB Depann Tout Express : nos spécialistes vous proposent des solutions de qualité
+                        <p>Contactez Depann Tout Express : nos spécialistes vous proposent des solutions de qualité
                             à un
                             prix compétitif!</p>
                     </div>
@@ -57,8 +57,7 @@ export default function IsolateurInterieure() {
                                 et vos combles perdus ou aménagés.</p>
                             <p className={"text-lg"}>En prenant en compte vos besoins et votre budget, nous vous
                                 proposons des matériaux isolants parfaitement adaptés à votre situation.</p>
-                            <Button className={"max-w-[350px]"} size={"xl"} pill outline>Notre menuisier est à votre
-                                disposition</Button>
+                            <Button href={"/menuiserie"} className={"max-w-[350px]"} size={"xl"} pill outline>Notre menuisier est à votre disposition</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
@@ -86,8 +85,7 @@ export default function IsolateurInterieure() {
                                 utilisons uniquement des matériaux reconnus dans le domaine de l’isolation.</p>
                             <p className={"text-lg"}>De plus, le renforcement de <strong>l’isolation
                                 acoustique</strong> contribue également à réduire les nuisances sonores extérieures.</p>
-                            <Button className={"max-w-[350px]"} size={"xl"} pill outline>Contactez votre
-                                plombier</Button>
+                            <Button href={"/reparation-plomberie"} className={"max-w-[350px]"} size={"xl"} pill outline>Contactez votre plombier</Button>
                         </div>
                     </div>
                 </div>
@@ -103,14 +101,13 @@ export default function IsolateurInterieure() {
                                 disposition <span
                                     className="font-light">pour répondre à toutes vos questions</span></h2>
                             <p>Vous êtes à la recherche d'une entreprise qualifiée pour l'aménagement des combles?</p>
-                            <p>Sachez que l'équipe de AAB Depann Tout Express réalise également des travaux de
+                            <p>Sachez que l'équipe de Depann Tout Express réalise également des travaux de
                                 rénovation et de plâtrerie. Cela vous permet de créer de nouveaux espaces ou de modifier
                                 la hauteur de vos pièces, par exemple en créant un faux plafond.</p>
                             <p>Contactez-nous pour obtenir des informations ou pour recevoir un devis gratuit et
                                 détaillé sur rendez-vous! De plus, nous proposons des solutions pour faciliter le
                                 paiement de vos travaux.</p>
-                            <Button className={"max-w-[350px]"} size={"xl"} pill outline>Obtenez votre devis
-                                gratuit</Button>
+                            <Button href={"/contact"} className={"max-w-[350px]"} size={"xl"} pill outline>Obtenez votre devis gratuit</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>

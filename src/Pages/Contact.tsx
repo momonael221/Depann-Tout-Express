@@ -42,7 +42,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 gap-10">
                 <div className="col-span-1">
                     <div className="flex flex-col space-y-8">
-                        <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour toute information, contactez AAB Depann
+                        <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour toute information, contactez Depann
                             Tout Express <span className="font-light">à Roubaix</span></h2>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ export default function Contact() {
                                 délais.</p>
                             <p className={"text-lg"}>De plus, nous proposons des solutions pour faciliter le
                                 paiement de vos travaux.</p>
-                            <form ref={form} onSubmit={sendEmail} className="flex max-w-md flex-col gap-4">
+                            <form ref={form} onSubmit={sendEmail} className="flex lg:max-w-md flex-col gap-4">
                                 {success && (<Alert color="success" icon={HiCheckCircle}  onDismiss={() => setSuccess("")}>{success}</Alert>)}
                                 {error && (<Alert color="failure" icon={HiInformationCircle}  onDismiss={() => setError("")}>{error}</Alert>)}
                                 <div>
@@ -125,7 +125,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={ContactImg} alt={ContactImg}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={ContactImg} alt={ContactImg}/>
                     </div>
                 </div>
             </div>

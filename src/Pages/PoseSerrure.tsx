@@ -59,7 +59,7 @@ export default function PoseSerrure() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Serrure1} alt={Serrure1}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Serrure1} alt={Serrure1}/>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default function PoseSerrure() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Serrure2} alt={Serrure2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Serrure2} alt={Serrure2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
@@ -93,7 +93,7 @@ export default function PoseSerrure() {
                     </div>
                     <div className="col-span-1 space-y-4">
                         <p>Vous souhaitez planifier un rendez-vous ? Vous avez besoin de conseils ou d'informations supplémentaires sur les systèmes de sécurité à privilégier?</p>
-                        <p>La société AAB Depann Tout Express est là pour vous! N'hésitez pas à contacter nos experts qualifiés et expérimentés : ils seront ravis de répondre à toutes vos questions.</p>
+                        <p>La société Depann Tout Express est là pour vous! N'hésitez pas à contacter nos experts qualifiés et expérimentés : ils seront ravis de répondre à toutes vos questions.</p>
                         <p>Enfin, nous proposons une étude personnalisée et gratuite sur demande.</p>
                     </div>
                     <div className="col-span-1 space-y-4">

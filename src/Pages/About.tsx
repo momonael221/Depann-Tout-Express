@@ -66,10 +66,8 @@ export default function About() {
                             d'évacuation des eaux usées conformes aux normes, y compris ceux reliés au
                             tout-à-l'égout.</p>
                         <p>Pour vos besoins de raccordement en eau et en gaz, ou même pour une installation sur mesure
-                            de plomberie de cuisine, n'hésitez pas à contacter AAB Depann Tout Express !</p>
-                        <Button href={"/reparation-plomberie"} className={"max-w-xs"} size={"xl"} pill outline>Services
-                            de
-                            plomberie sanitaire</Button>
+                            de plomberie de cuisine, n'hésitez pas à contacter Depann Tout Express !</p>
+                        <Button href={"/reparation-plomberie"} className={"max-w-xs"} size={"xl"} pill outline>Services de plomberie sanitaire</Button>
                     </div>
                 </div>
             </div>
@@ -99,7 +97,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Contact} alt={Contact}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Contact} alt={Contact}/>
                     </div>
                 </div>
             </div>

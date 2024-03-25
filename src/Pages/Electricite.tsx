@@ -29,7 +29,7 @@ export default function Electricite() {
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>Depuis de nombreuses années, la société AAB Depann Tout Express est à vos côtés pour diverses
+                        <p>Depuis de nombreuses années, la société Depann Tout Express est à vos côtés pour diverses
                             prestations liées à la <strong>rénovation immobilière</strong>, notamment pour la mise aux
                             normes et les travaux en électricité.</p>
                         <p>Nous intervenons à Roubaix, où nous sommes basés, et dans un rayon d'environ 60 km autour de
@@ -52,11 +52,11 @@ export default function Electricite() {
                             <p className={"text-lg"}>En effet, un bon entretien de vos installations électriques est
                                 essentiel, car il favorise leur longévité et un fonctionnement optimal. Il permet
                                 également d'assurer votre sécurité et de vous éviter tout incident.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Rénovez votre maison !</Button>
+                            <Button href={"/travaux-de-renovation"} className={"max-w-sm"} size={"xl"} pill outline>Rénovez votre maison !</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Electricite1} alt={Electricite1}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Electricite1} alt={Electricite1}/>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ export default function Electricite() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Electricite2} alt={Electricite2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Electricite2} alt={Electricite2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
@@ -86,7 +86,7 @@ export default function Electricite() {
                                 </ul>
                             </div>
                             <p>Nos équipes s'adaptent à toutes vos demandes !</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Vos travaux de plomberie</Button>
+                            <Button href={"/reparation-plomberie"} className={"max-w-sm"} size={"xl"} pill outline>Vos travaux de plomberie</Button>
                         </div>
                     </div>
                 </div>
@@ -108,12 +108,11 @@ export default function Electricite() {
                             <p>Après avoir réalisé une étude approfondie de vos besoins et avant toute intervention,
                                 nous rédigeons pour vous un devis gratuit et détaillé. Cela nous permet d'estimer le
                                 coût des travaux à réaliser.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Devis pour travaux
-                                électriques</Button>
+                            <Button href={"/contact"} className={"max-w-sm"} size={"xl"} pill outline>Devis pour travaux électriques</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Electricite3} alt={Electricite3}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Electricite3} alt={Electricite3}/>
                     </div>
                 </div>
             </div>

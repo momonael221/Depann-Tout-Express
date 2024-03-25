@@ -45,7 +45,7 @@ export default function Revetement() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={RevetementSol} alt={RevetementSol}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={RevetementSol} alt={RevetementSol}/>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ export default function Revetement() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={RevetementMureaux} alt={RevetementMureaux}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={RevetementMureaux} alt={RevetementMureaux}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">

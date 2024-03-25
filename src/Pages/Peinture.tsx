@@ -29,7 +29,7 @@ export default function Peinture() {
                     </div>
                     <div className="col-span-1 space-y-4">
                         <p>Vous envisagez de repeindre votre plafond, mais celui-ci est très haut ou difficile d'accès ?
-                            L'entreprise AAB Depann Tout Express offre ses services aux professionnels, aux
+                            L'entreprise Depann Tout Express offre ses services aux professionnels, aux
                             collectivités et aux particuliers pour les travaux de peinture intérieure et de
                             décoration.</p>
                         <p>Nos experts vous conseillent et assurent une mise en peinture soignée de votre habitation, de
@@ -56,7 +56,7 @@ export default function Peinture() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg w-full h-full"} src={Peinture1} alt={Peinture1}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Peinture1} alt={Peinture1}/>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ export default function Peinture() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg w-full h-full"} src={Peinture2} alt={Peinture2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Peinture2} alt={Peinture2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">

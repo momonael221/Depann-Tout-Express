@@ -1,11 +1,14 @@
-import {Button, DarkThemeToggle, Dropdown, Navbar as NavbarLayout} from 'flowbite-react';
+import {Button, DarkThemeToggle, Dropdown, Navbar as NavbarLayout, useThemeMode} from 'flowbite-react';
 
 export default function Navbar() {
+    const {mode} = useThemeMode();
+
     return (
         <header className="flex flex-col">
             <NavbarLayout className={"gap-8"} fluid={false} border={true}>
                 <NavbarLayout.Brand href="/">
-                    <img src="/logo.jpg" className="mr-3 h-6 sm:h-9" alt="Depqnn Tout Express Logo" />
+                    {mode === 'light' ? <img src="/logo-light.png" className="mr-3" alt="Depann Tout Express Logo"/>
+                        : <img src="/logo-dark.png" className="mr-3" alt="Depann Tout Express Logo"/>}
                 </NavbarLayout.Brand>
                 <div className="flex md:order-2">
                     <DarkThemeToggle/>

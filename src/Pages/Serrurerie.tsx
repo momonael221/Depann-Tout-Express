@@ -87,7 +87,7 @@ export default function Serrurerie() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Serrurier} alt={Serrurier}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Serrurier} alt={Serrurier}/>
                     </div>
                 </div>
             </div>

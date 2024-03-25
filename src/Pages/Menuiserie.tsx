@@ -52,12 +52,11 @@ export default function Menuiserie() {
                                     aluminium</strong>, en bois, en PVC ou en matériaux mixtes.</p>
                             <p className={"text-lg"}>Nous effectuons la pose de ces derniers sur mesure à votre
                                 domicile, dans vos bureaux ou dans vos locaux professionnels.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Installation de cloisons
-                                sèches</Button>
+                            <Button href={"/platerie"} className={"max-w-sm"} size={"xl"} pill outline>Installation de cloisons sèches</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Menuiserie1} alt={Menuiserie1}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Menuiserie1} alt={Menuiserie1}/>
                     </div>
                 </div>
             </div>
@@ -67,7 +66,7 @@ export default function Menuiserie() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Menuiserie2} alt={Menuiserie2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Menuiserie2} alt={Menuiserie2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
@@ -85,8 +84,8 @@ export default function Menuiserie() {
                                 </ul>
                             </div>
                             <p>Optez pour l’aluminium pour son élégance et sa résistance, le PVC pour son haut potentiel
-                                isolant et sa robustesse, le bois pour son charme et son aspect authentique !</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Services d'électricité</Button>
+                                isolant et sa robustesse, le bois pour son charme et son aspect authentique!</p>
+                            <Button href={"/electricite"} className={"max-w-sm"} size={"xl"} pill outline>Services d'électricité</Button>
                         </div>
                     </div>
                 </div>
@@ -104,13 +103,13 @@ export default function Menuiserie() {
                     </div>
                     <div className="col-span-1 space-y-4">
                         <p>Nous assurons la pose de vos menuiseries avec le plus grand soin. Pour prendre rendez-vous ou
-                            pour demander une étude gratuite et personnalisée, contactez AAB Depann Tout Express.
+                            pour demander une étude gratuite et personnalisée, contactez Depann Tout Express.
                             Partagez-nous votre projet : nous répondons à vos attentes.</p>
                         <p>Disponibles 7j/7 et 24h/24 par téléphone ou par e-mail, soyez rassuré : nous prenons en
                             compte toutes vos questions, vos demandes de dépannage de serrurerie ou de menuiserie.</p>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <Button size={"xl"} pill outline>Contactez AAB Depann Tout Express</Button>
+                        <Button className={"max-w-xs"} href={"/contact"} size={"xl"} pill outline>Contactez Depann Tout Express</Button>
                     </div>
                 </div>
             </div>

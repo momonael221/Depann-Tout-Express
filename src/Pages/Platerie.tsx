@@ -33,7 +33,7 @@ export default function Platerie() {
                         <p>En outre, une isolation efficace vous permet d'améliorer vos performances thermiques.
                             Diminuez également les nuisances sonores et réduisez significativement votre facture de
                             chauffage !</p>
-                        <p>L'entreprise AAB Depann Tout Express intervient pour vos travaux de rénovation ou pour vos
+                        <p>L'entreprise Depann Tout Express intervient pour vos travaux de rénovation ou pour vos
                             nouveaux aménagements intérieurs.</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ export default function Platerie() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Platr1} alt={Platr1}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Platr1} alt={Platr1}/>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ export default function Platerie() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Platr2} alt={Platr2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Platr2} alt={Platr2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">

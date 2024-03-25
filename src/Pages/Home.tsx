@@ -105,7 +105,7 @@ export default function Home() {
         <section className="my-10 lg:my-20">
             <div className="container mx-auto">
                 <h2 className="text-center text-xl lg:text-2xl uppercase font-medium">Nos domaines d’intervention</h2>
-                <div className="mt-16">
+                <div className="mt-10 lg:mt-16">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
                         <div className="col-span-1">
                             <a href={"/serrurerie"}>
@@ -137,7 +137,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="bg-cyan-700 dark:bg-gray-800 w-full my-20 py-10">
+        <section className="bg-cyan-700 dark:bg-gray-800 w-full my-10 lg:my-20 py-10">
             <div className="container mx-auto space-y-10">
                 <h2 className={"text-center text-white dark:text-gray-400 text-2xl font-bold uppercase"}>Nos points forts</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
@@ -163,7 +163,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="mb-10 lg:my-20 w-full">
+        <section className="lg:my-20 w-full">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-32">
                     <div className={"col-span-1"}>
@@ -175,39 +175,39 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={ManSerrurerie} alt={ManSerrurerie}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={ManSerrurerie} alt={ManSerrurerie}/>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section className="my-20 w-full bg-cyan-700 dark:bg-gray-800">
+        <section className="my-10 lg:my-20 w-full bg-cyan-700 dark:bg-gray-800">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-32">
                     <div className={"col-span-1 pt-10 lg:py-20"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}><span className="font-light">Notre équipe se dédie à la réalisation de </span> vos projets de rénovation et d'aménagement intérieur</h2>
-                            <p className={"text-lg"}>Spécialistes des <a href={"/travaux-de-renovation"} className="underline">rénovations intérieures et extérieures</a>, nos artisans transforment et améliorent votre maison, appartement ou espace professionnel en les embellissant, les agrandissant et les aménageant selon vos besoins.</p>
-                            <p className={"text-lg"}>En cas de sinistre nécessitant une remise en état, l'installation de revêtements ou de cloisons, ou encore la peinture de vos murs, notre équipe intervient rapidement pour effectuer vos travaux de maintenance immobilière.</p>
+                            <h2 className={"text-white dark:text-cyan-700 text-3xl font-bold"}><span className="font-light">Notre équipe se dédie à la réalisation de </span> vos projets de rénovation et d'aménagement intérieur</h2>
+                            <p className={"text-lg text-white dark:text-gray-400"}>Spécialistes des <a href={"/travaux-de-renovation"} className="underline">rénovations intérieures et extérieures</a>, nos artisans transforment et améliorent votre maison, appartement ou espace professionnel en les embellissant, les agrandissant et les aménageant selon vos besoins.</p>
+                            <p className={"text-lg text-white dark:text-gray-400"}>En cas de sinistre nécessitant une remise en état, l'installation de revêtements ou de cloisons, ou encore la peinture de vos murs, notre équipe intervient rapidement pour effectuer vos travaux de maintenance immobilière.</p>
                             <Button color={"light"} href={"/travaux-de-renovation"} className={"max-w-[275px] w-full mx-auto lg:mx-0"} size={"xl"} pill>Aménagement & rénovation</Button>
                         </div>
                     </div>
                     <div className={"col-span-1 lg:bg-cyan-600 lg:dark:bg-gray-700 bg-opacity-80 h-full lg:px-14 pb-10 lg:py-10 space-y-10"}>
                         <div className={"flex flex-col"}>
                             <img className="max-w-20" src={CuttingBoard} alt={CuttingBoard}/>
-                            <h2 className={"text-cyan-700 text-xl font-normal mb-4"}>Installation de revêtements, travaux de plâtrerie et services électriques.</h2>
+                            <h2 className={"text-white dark:text-cyan-700 text-xl font-normal mb-4"}>Installation de revêtements, travaux de plâtrerie et services électriques.</h2>
                             <div className="flex flex-col space-y-5 font-light">
-                                <p className={"text-sm"}>Depann Tout Express propose l'installation de parquet flottant, de parquet massif, de moquette et de revêtements de sol en vinyle.</p>
-                                <p className={"text-sm"}>Vous envisagez de réorganiser votre espace? Nous nous chargeons de l'installation ou, au contraire, de la démolition de cloisons pour créer de nouveaux espaces.</p>
-                                <p className={"text-sm"}>De plus, notre équipe se mobilise pour vos besoins en électricité, notamment pour la mise en conformité de votre installation.</p>
+                                <p className={"text-sm text-white dark:text-gray-400"}>Depann Tout Express propose l'installation de parquet flottant, de parquet massif, de moquette et de revêtements de sol en vinyle.</p>
+                                <p className={"text-sm text-white dark:text-gray-400"}>Vous envisagez de réorganiser votre espace? Nous nous chargeons de l'installation ou, au contraire, de la démolition de cloisons pour créer de nouveaux espaces.</p>
+                                <p className={"text-sm text-white dark:text-gray-400"}>De plus, notre équipe se mobilise pour vos besoins en électricité, notamment pour la mise en conformité de votre installation.</p>
                             </div>
                         </div>
                         <div className={"flex flex-col"}>
                             <img className="max-w-20 mb-5" src={Brush} alt={Brush}/>
-                            <h2 className={"text-cyan-700 text-xl font-normal mb-4"}>Peinture intérieure et extérieure, ainsi que remplacement des menuiseries.</h2>
+                            <h2 className={"text-white dark:text-cyan-700 text-xl font-normal mb-4"}>Peinture intérieure et extérieure, ainsi que remplacement des menuiseries.</h2>
                             <div className="flex flex-col space-y-5 font-light">
-                                <p className={"text-sm"}>Vous désirez donner un coup de neuf à votre intérieur? Vous envisagez de moderniser votre salon? Nous prenons en charge les travaux de peinture. N'hésitez pas à solliciter nos professionnels pour des conseils sur les choix de couleurs et de finitions.</p>
-                                <p className={"text-sm"}>Pour améliorer l'isolation de votre domicile ou de vos locaux commerciaux, envisagez le remplacement de vos anciennes menuiseries !</p>
+                                <p className={"text-sm text-white dark:text-gray-400"}>Vous désirez donner un coup de neuf à votre intérieur? Vous envisagez de moderniser votre salon? Nous prenons en charge les travaux de peinture. N'hésitez pas à solliciter nos professionnels pour des conseils sur les choix de couleurs et de finitions.</p>
+                                <p className={"text-sm text-white dark:text-gray-400"}>Pour améliorer l'isolation de votre domicile ou de vos locaux commerciaux, envisagez le remplacement de vos anciennes menuiseries !</p>
                             </div>
                         </div>
                     </div>
@@ -215,11 +215,11 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="my-20 w-full">
+        <section className="my-10 lg:my-20 w-full">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-20">
                     <div className="col-span-1">
-                        <img className={"rounded-lg"} src={Isolation2} alt={Isolation2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Isolation2} alt={Isolation2}/>
                     </div>
                     <div className="col-span-1">
                         <div className={"flex flex-col"}>
@@ -236,7 +236,7 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="w-full bg-gray-100 dark:bg-gray-900 lg:pb-20">
+        <section className="w-full bg-gray-100 dark:bg-gray-900 py-10 lg:py-20">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 lg:gap-32">
                     <div className={"col-span-1"}>
@@ -249,7 +249,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Toilet} alt={Toilet}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Toilet} alt={Toilet}/>
                     </div>
                 </div>
             </div>

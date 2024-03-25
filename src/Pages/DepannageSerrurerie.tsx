@@ -27,7 +27,7 @@ export default function DepannageSerrurerie() {
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>La société AAB Depann Tout Express assure des interventions 24h/24 et 7j/7 à Roubaix et dans les environs pour tout dépannage de serrurerie, que vous soyez un particulier, un professionnel ou un représentant d'une collectivité.</p>
+                        <p>La société Depann Tout Express assure des interventions 24h/24 et 7j/7 à Roubaix et dans les environs pour tout dépannage de serrurerie, que vous soyez un particulier, un professionnel ou un représentant d'une collectivité.</p>
                         <p>Que votre porte soit bloquée ou que vous ayez accidentellement laissé vos clés à l'intérieur de votre maison, nous intervenons rapidement sur place!</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ export default function DepannageSerrurerie() {
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Serrurerie} alt={Serrurerie}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Serrurerie} alt={Serrurerie}/>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ export default function DepannageSerrurerie() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Cadenas} alt={Cadenas}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Cadenas} alt={Cadenas}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">

@@ -31,7 +31,7 @@ export default function Vitrerie() {
                         <p>Vous résidez à Marcq-en-Barœul, Villeneuve-d'Ascq, Lille ou Tourcoing, et vous êtes à la
                             recherche d'une
                             entreprise qualifiée pour réaliser vos travaux de vitrerie ?</p>
-                        <p>La société AAB Depann Tout Express est spécialisée dans les travaux de rénovation, y compris
+                        <p>La société Depann Tout Express est spécialisée dans les travaux de rénovation, y compris
                             le remplacement et l’installation de vitres, de verres de douche, de miroirs…</p>
                         <p>N'hésitez pas à nous contacter pour toute question ou demande d’information, que vous soyez
                             un particulier,
@@ -55,11 +55,11 @@ export default function Vitrerie() {
                                 l'installation de
                                 vitres permet d'apporter un maximum de lumière et de chaleur dans votre
                                 maison.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Installation de menuiseries</Button>
+                            <Button href={"/menuiserie"} className={"max-w-sm"} size={"xl"} pill outline>Installation de menuiseries</Button>
                         </div>
                     </div>
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Vitrerie1} alt={Vitrerie1}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Vitrerie1} alt={Vitrerie1}/>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default function Vitrerie() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
-                        <img className={"rounded-lg"} src={Vitrerie2} alt={Vitrerie2}/>
+                        <img className={"object-cover rounded-lg w-full max-h-[400px]"} src={Vitrerie2} alt={Vitrerie2}/>
                     </div>
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
@@ -82,7 +82,7 @@ export default function Vitrerie() {
                             <p>En premier lieu, notre équipe assure la sécurisation de vos vitres avant la réparation,
                                 en installant un plaquage provisoire. Nous effectuons ensuite une analyse détaillée des
                                 travaux à réaliser, puis procédons au remplacement complet de votre vitrage.</p>
-                            <Button className={"max-w-sm"} size={"xl"} pill outline>Services de plomberie</Button>
+                            <Button href={"/reparation-plomberie"} className={"max-w-sm"} size={"xl"} pill outline>Services de plomberie</Button>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ export default function Vitrerie() {
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <Button size={"xl"} pill outline>Étude personnalisée gratuite</Button>
+                        <Button href={"/contact"} className={"max-w-xs"} size={"xl"} pill outline>Étude personnalisée gratuite</Button>
                     </div>
                 </div>
             </div>
