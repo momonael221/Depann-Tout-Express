@@ -24,7 +24,7 @@ export default function Serrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie, <span className="font-light">n'hésitez pas à nous contacter dans toute la région du haut de france.</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie, <span className="font-light">vous pouvez nous contacter à Roubaix, Lille, Valenciennes et dans toute la région haute France.</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">

@@ -23,11 +23,11 @@ export default function DepannageSerrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous assurons un dépannage rapide de <span className="font-light">serrurerie à Roubaix</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous assurons un dépannage rapide de <span className="font-light">serrurerie à Roubaix, Lille, Valenciennes et dans toute la région haute France.</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
-                        <p>La société Depann Tout Express assure des interventions 24h/24 et 7j/7 à Roubaix et dans les environs pour tout dépannage de serrurerie, que vous soyez un particulier, un professionnel ou un représentant d'une collectivité.</p>
+                        <p>La société Depann Tout Express assure des interventions 24h/24 et 7j/7 à Roubaix, Lille, Valenciennes et dans toute la région haute France et environs pour tout dépannage de serrurerie, que vous soyez un particulier, un professionnel ou un représentant d'une collectivité.</p>
                         <p>Que votre porte soit bloquée ou que vous ayez accidentellement laissé vos clés à l'intérieur de votre maison, nous intervenons rapidement sur place!</p>
                     </div>
                 </div>
@@ -39,8 +39,9 @@ export default function DepannageSerrurerie() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-32">
                     <div className={"col-span-1"}>
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous intervenons rapidement pour sécuriser vos ouvertures <span className="font-light">en cas d’effraction</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous intervenons rapidement pour l'ouverture de porte ou un changement de serrure <span className="font-light"></span></h2>
                             <p className={"text-lg"}>Avez-vous été victime d'un cambriolage ou d'une tentative d'effraction?</p>
+                            <p className={"text-lg"}>Suite à une perte de vos clés, une serrure défectueuse, fermeture provisoire ou sécurisation de vos biens à domicile ou commerce et pour toute infraction disponible jour et nuit 24h/24.</p>
                             <p className={"text-lg"}>Si nous ne pouvons pas toujours remplacer votre serrure immédiatement, nous pouvons cependant intervenir en urgence pour sécuriser vos bureaux ou votre domicile en installant des planches en bois, en acier ou en aluminium.</p>
                             <Button href={"/pose-serrure"} className={"max-w-sm"} size={"xl"} pill outline>Pose de verrous et serrures</Button>
                         </div>
