@@ -25,7 +25,7 @@ export default function ReparationPlomberie() {
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
                             <h2 className={"text-cyan-700 text-3xl font-bold"}>Installation et Maintenance de
-                                Plomberie <span className="font-light">dans la région de Roubaix</span></h2>
+                                Plomberie <span className="font-light">dans toute la région de Haut de France</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">

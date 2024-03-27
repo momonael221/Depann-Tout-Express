@@ -24,12 +24,12 @@ export default function Serrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie à Roubaix et ses environs, <span className="font-light">n'hésitez pas à nous contacter.</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie, <span className="font-light">n'hésitez pas à nous contacter dans toute la région du haut de france.</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
                         <p>
-                            À la recherche d'une entreprise capable d'installer et de réparer tous types de serrures ? Que votre porte soit bloquée ou qu'elle ait été forcée lors d'un cambriolage, la société Depann Tout Express prend en charge vos travaux de serrurerie pour garantir votre sécurité et votre protection. En cas d'effraction ou de tentative, il est crucial de réparer votre serrure rapidement afin de sécuriser votre domicile. Les serruriers de Depann Tout Express à Roubaix sont spécialisés dans la réparation de serrures après une effraction et peuvent vous conseiller sur les meilleures options pour renforcer la sécurité de votre domicile en installant des serrures plus robustes et résistantes aux tentatives de cambriolage. Nous intervenons en urgence ou sur rendez-vous à Marcq-en-Barœul, Villeneuve-d'Ascq, Lille et Tourcoing.
+                            À la recherche d'une entreprise capable d'installer et de réparer tous types de serrures ? Que votre porte soit bloquée ou qu'elle ait été forcée lors d'un cambriolage, la société Depann Tout Express prend en charge vos travaux de serrurerie pour garantir votre sécurité et votre protection. En cas d'effraction ou de tentative, il est crucial de réparer votre serrure rapidement afin de sécuriser votre domicile. Les serruriers de Depann Tout Express à Roubaix sont spécialisés dans la réparation de serrures après une effraction et peuvent vous conseiller sur les meilleures options pour renforcer la sécurité de votre domicile en installant des serrures plus robustes et résistantes aux tentatives de cambriolage. Nous intervenons en urgence ou sur rendez-vous à Marcq-en-Barœul, Villeneuve-d'Ascq, Lille, Roubaix, Valenciennes, Lens, La madeleine, Tourcoing etc...
                         </p>
                     </div>
                 </div>
