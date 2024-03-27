@@ -23,7 +23,7 @@ export default function PoseSerrure() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe se charge de l'installation de serrures <span className="font-light">à Roubaix et dans ses environs</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe se charge de l'installation de serrures <span className="font-light">dans la région Haut de France et dans ses environs</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
