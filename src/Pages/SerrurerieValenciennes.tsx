@@ -9,7 +9,7 @@ export default function DepannageSerrurerie() {
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-2xl font-light">Dépannage de Serrurerie</h2>
+                    <h2 className="text-2xl font-light">Serrurerie Valenciennes</h2>
                     <Breadcrumb aria-label="Subpage breadcrumb">
                         <Breadcrumb.Item href="/" icon={HiHome}>Accueil</Breadcrumb.Item>
                         <Breadcrumb.Item>Dépannage de serrurerie</Breadcrumb.Item>
@@ -23,7 +23,8 @@ export default function DepannageSerrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nous assurons un dépannage rapide de <span className="font-light">serrurerie à Roubaix, Lille, Valenciennes et dans toute la région haute France.</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"} > Adresse à Valenciennes: <span className="font-light"> 25 Avenue Saint-Amant 59300, à Valenciennes</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie sur valenciennes et aux environs, <span className="font-light">vous pouvez nous contacter dans toute la région haut de France. Nous intervenons sur Valenciennes et son aglomération, Nous intervenons en urgence ou sur rendez-vous 24H/24, 7J/7 en montage de serrure sur Valenciennes, Réparation et dépannages de serrures à Denain, Installations de Portes Blindés à Crespin, Serrurier agrée assurance sur Saultain ou Sebourg, Poser une serrure ou un sécuriser vos portes sur Anzin, Abscon, Brillon, Aulnoy-lez-Valenciennes, Rouvignies, La sentinelle,  etc...</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">

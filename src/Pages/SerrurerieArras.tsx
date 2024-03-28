@@ -9,7 +9,7 @@ export default function PoseSerrure() {
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-2xl font-light">Pose de serrurerie</h2>
+                    <h2 className="text-2xl font-light">Serrurerie Arras</h2>
                     <Breadcrumb aria-label="Subpage breadcrumb">
                         <Breadcrumb.Item href="/" icon={HiHome}>Accueil</Breadcrumb.Item>
                         <Breadcrumb.Item>Pose de serrurerie</Breadcrumb.Item>
@@ -23,7 +23,7 @@ export default function PoseSerrure() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre équipe se charge de l'installation de serrures <span className="font-light">à Roubaix, Lille, Valenciennes et dans toute la région haute France.</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie sur Arras et aux environs, <span className="font-light">vous pouvez nous contacter dans toute la région haut de France. Nous intervenons sur Arras et dans un rayon de 15 km aux alentours, Nous intervenons en urgence ou sur rendez-vous 24H/24, 7J/7 en dépannage de serrure sur Arras, Réparation de serrures à Lens, Installations et changements de Portes Blindés à Liévin, Serrurier agrée assurance sur Carvin, Changement de serrure sur Hénin-Beaumont, Pose serrure ou un verrou sur Rivière, Wancourt, Willerval, Orville etc...</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">

@@ -19,8 +19,10 @@ export default function Navbar() {
                     <NavbarLayout.Link>
                         <Dropdown label="Serrurerie" arrowIcon={true} inline>
                             <Dropdown.Item><NavbarLayout.Link href="/serrurerie">Serrurrerie Lille</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="/depannage-serrurerie">Ouverture de portes</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="/pose-serrure">Changement de serrures</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/depannage-serrurerie">Serrurerie Valenciennes</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/pose-serrure">Serrurerie Arras</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurerie-dunkerque">Serrurerie Dunkerque</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurerie-douai">Serrurerie Douai</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link>

@@ -10,13 +10,16 @@ const Peinture = lazy(() => import("./Pages/Peinture.tsx"));
 const Vitrerie = lazy(() => import("./Pages/Vitrerie.tsx"));
 const Menuiserie = lazy(() => import("./Pages/Menuiserie.tsx"));
 const Revetement = lazy(() => import("./Pages/Revetement.tsx"));
-const Serrurerie = lazy(() => import("./Pages/Serrurerie.tsx"));
+const Serrurerie = lazy(() => import("./Pages/SerrurerieLille.tsx"));
 const Electricite = lazy(() => import("./Pages/Electricite.tsx"));
-const PoseSerrure = lazy(() => import("./Pages/PoseSerrure.tsx"));
+const PoseSerrure = lazy(() => import("./Pages/SerrurerieArras.tsx"));
 const TravauxRenovation = lazy(() => import("./Pages/TravauxRenovation.tsx"));
 const IsolateurInterieure = lazy(() => import("./Pages/IsolationInterieure.tsx"));
 const ReparationPlomberie = lazy(() => import("./Pages/ReparationPlomberie.tsx"));
-const DepannageSerrurerie = lazy(() => import("./Pages/DepannageSerrurerie.tsx"));
+const DepannageSerrurerie = lazy(() => import("./Pages/SerrurerieValenciennes.tsx"));
+const SerrurerieDunkerque = lazy(() => import("./Pages/SerrurerieDunkerque.tsx"));
+const SerrurerieDouai = lazy(() => import("./Pages/SerrurerieDouai.tsx")); 
+
 
 export function Routers() {
     return (
@@ -37,6 +40,8 @@ export function Routers() {
                 <Route path="/isolateur-interieure" element={<IsolateurInterieure/>}/>
                 <Route path="/reparation-plomberie" element={<ReparationPlomberie/>}/>
                 <Route path="/depannage-serrurerie" element={<DepannageSerrurerie/>}/>
+                <Route path="/serrurerie-dunkerque" element={<SerrurerieDunkerque/>}/>
+                <Route path="/serrurerie-douai" element={<SerrurerieDouai/>}/>
             </Routes>
         </BrowserRouter>
     )
