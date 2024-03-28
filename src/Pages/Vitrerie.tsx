@@ -23,8 +23,8 @@ export default function Vitrerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Notre expert en vitrerie <span
-                                className="font-light">à Roubaix est à votre service</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Nos experts en vitrerie <span
+                                className="font-light">sont à votre service 24h/24 et 7j/7 à Roubaix, Lille, Valenciennes et dans toute la région haute France et aux alentours</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
