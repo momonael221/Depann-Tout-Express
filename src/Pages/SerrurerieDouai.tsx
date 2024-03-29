@@ -10,7 +10,7 @@ export default function Serrurerie() {
         <section className="bg-gray-50 dark:bg-gray-900 border-b dark:border-gray-700">
             <div className="container mx-auto py-10">
                 <div className="flex items-center justify-between gap-4">
-                    <h2 className="text-2xl font-light">Serrurerie Lille</h2>
+                    <h2 className="text-2xl font-light">Serrurerie Douai</h2>
                     <Breadcrumb aria-label="Subpage breadcrumb">
                         <Breadcrumb.Item href="/" icon={HiHome}>Accueil</Breadcrumb.Item>
                         <Breadcrumb.Item>Serrurerie</Breadcrumb.Item>
@@ -24,7 +24,7 @@ export default function Serrurerie() {
                 <div className="grid grid-cols-1 gap-10">
                     <div className="col-span-1">
                         <div className="flex flex-col space-y-8">
-                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie sur Douai et aux environs, <span className="font-light">vous pouvez nous contacter dans toute la région haut de France. Nous intervenons sur lille et son aglomération, Nous intervenons en urgence ou sur rendez-vous 24H/24, 7J/7 en dépannage de serrure sur Lille , Réparation de serrures à roubaix, Installations de Portes Blindés à Marcq-en-Barœul   et ou Mons-en-Baroeul  Serrurier agrée assurance sur Villeneuve d'Ascq  Poser une serrure ou un verrou sur tourcoing, et dans toutes les communes aux alentours comme Neuville-en-ferain, Loos, Watrellos, Wattignies, Verlinghem, Annoeulilin, Armentières, Beaucamps-Ligny, Leers, Lambersart, Houplines, lesquin, Lezennes etc...</span></h2>
+                            <h2 className={"text-cyan-700 text-3xl font-bold"}>Pour tout dépannage en serrurerie sur Douai et aux environs, <span className="font-light">vous pouvez nous contacter dans toute la région haut de France. Nous intervenons sur Douai et son aglomération, Nous intervenons en urgence ou sur rendez-vous 24H/24, 7J/7 en dépannage de serrure sur Flers-en-Escrebieux, Réparation de serrures à Roost-Warendin, Lallaing, Installations de Portes Blindés à Sin-le-Noble, Waziers,   et ou Cuincy  Serrurier agréé assurance sur Lauwin-Planqu, Poser une serrure ou un verrou sur Anhiers, et dans toutes les communes aux alentours comme Lambres-lez-Douai, et Râches etc...</span></h2>
                         </div>
                     </div>
                     <div className="col-span-1 space-y-4">
