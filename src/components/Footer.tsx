@@ -32,15 +32,15 @@ export default function Footer() {
                                         <span>198 Rue de l'Alma 59100 Roubaix</span>
                                     </div>
                                 </FooterLayout.Link>
-                                <FooterLayout.Link href="tel:+33 06 25 11 12 81">
+                                <FooterLayout.Link href="tel:+33 6 25 11 12 81">
                                     <div className="flex items-center space-x-2">
                                         <div className={"W-4 h-4"}><BsPhone/></div>
-                                        <span>+33 06 25 11 12 81</span></div>
+                                        <span>+33 6 25 11 12 81</span></div>
                                 </FooterLayout.Link>
-                                <FooterLayout.Link href="tel:+33 03 20 84 38 99">
+                                <FooterLayout.Link href="tel:+33 3 20 84 38 99">
                                     <div className="flex items-center space-x-2">
                                         <div className={"W-4 h-4"}><BsTelephone/></div>
-                                        <span>+33 03 20 84 38 99</span></div>
+                                        <span>+33 3 20 84 38 99</span></div>
                                 </FooterLayout.Link>
                                 <FooterLayout.Link href="mailto:depanntoutexpress@hotmail.fr">
                                     <div className="flex items-center space-x-2">
