@@ -2,7 +2,7 @@ import {HiHome} from "react-icons/hi";
 import {Breadcrumb, Button} from "flowbite-react";
 
 import Serrurerie from "../assets/img/serrurerie.jpg"
-import Cadenas from "../assets/img/Valenciennes_body.jpg"
+import Cadenas from "../assets/img/Valenciennes_body.png"
 
 export default function DepannageSerrurerie() {
     return <>

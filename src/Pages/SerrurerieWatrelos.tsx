@@ -2,7 +2,7 @@ import {Breadcrumb, Button} from "flowbite-react";
 import {HiHome} from "react-icons/hi";
 
 import Verrou from "../assets/img/verrou.jpg";
-import Contact from "../assets/img/watrellos.jpg";
+import Contact from "../assets/img/watrellos.png";
 import Serrurier from "../assets/img/serrurier.jpg";
 
 export default function SerrurerieWatrelos() {

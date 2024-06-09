@@ -3,7 +3,7 @@ import {HiHome} from "react-icons/hi";
 
 import Verrou from "../assets/img/verrou.jpg";
 import Serrurier from "../assets/img/serrurier.jpg";
-import Contact from "../assets/img/la madeleine.jpg";
+import Contact from "../assets/img/la madeleine.png";
 
 export default function SerrurerieMadeleine() {
     return <>
