@@ -1,7 +1,7 @@
 import {HiHome} from "react-icons/hi";
 import {Breadcrumb, Button} from "flowbite-react";
 
-import Serrure1 from "../assets/img/door-closed.jpg"
+import Serrure1 from "../assets/img/arras.jpg"
 import Serrure2 from "../assets/img/key-door-lock-still-life.jpg"
 
 export default function PoseSerrure() {
