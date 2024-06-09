@@ -17,12 +17,19 @@ export default function Navbar() {
                 <NavbarLayout.Collapse>
                     <NavbarLayout.Link href={"/"}>Accueil</NavbarLayout.Link>
                     <NavbarLayout.Link>
-                        <Dropdown label="Serrurerie" arrowIcon={true} inline>
-                            <Dropdown.Item><NavbarLayout.Link href="/serrurerie">Serrurrerie Lille</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="/depannage-serrurerie">Serrurerie Valenciennes</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="/pose-serrure">Serrurerie Arras</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="/serrurerie-dunkerque">Serrurerie Dunkerque</NavbarLayout.Link></Dropdown.Item>
-                            <Dropdown.Item><NavbarLayout.Link href="/serrurerie-douai">Serrurerie Douai</NavbarLayout.Link></Dropdown.Item>
+                        <Dropdown label="Serrurier" arrowIcon={true} inline>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier">Serrurier Lille</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/depannage-serrurier">Serrurier Valenciennes</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/pose-serrure">Serrurier Arras</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-dunkerque">Serrurier Dunkerque</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-douai">Serrurier Douai</NavbarLayout.Link></Dropdown.Item>
+                            
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-armentieres">Serrurier Armentières</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-tourcoing">Serrurier Tourcoing</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-villeneuve-ascq">Serrurier Villeneuve d'Ascq</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-Watrelos">Serrurier Watrelos</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-lanbersart">Serrurier Lanbersart</NavbarLayout.Link></Dropdown.Item>
+                            <Dropdown.Item><NavbarLayout.Link href="/serrurier-madeleine">Serrurier La madeleine</NavbarLayout.Link></Dropdown.Item>
                         </Dropdown>
                     </NavbarLayout.Link>
                     <NavbarLayout.Link>

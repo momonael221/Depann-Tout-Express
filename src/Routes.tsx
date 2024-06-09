@@ -20,7 +20,12 @@ const IsolateurInterieure = lazy(() => import("./Pages/IsolationInterieure.tsx")
 const ReparationPlomberie = lazy(() => import("./Pages/ReparationPlomberie.tsx"));
 const SerrurerieDunkerque = lazy(() => import("./Pages/SerrurerieDunkerque.tsx"));
 const DepannageSerrurerie = lazy(() => import("./Pages/SerrurerieValenciennes.tsx"));
-
+const SerrurerieArmentieres = lazy(() => import("./Pages/SerrurerieArmentieres.tsx"));
+const SerrurerieTourcoing = lazy(() => import("./Pages/SerrurerieTourcoing.tsx"));
+const SerrurerieVilleneuve = lazy(() => import("./Pages/SerrurerieVilleneuve.tsx"));
+const SerrurerieWatrelos = lazy(() => import("./Pages/SerrurerieWatrelos.tsx"));
+const SerrurerieLanbersart = lazy(() => import("./Pages/SerrurerieLanbersart.tsx"));
+const SerrurerieMadeleine = lazy(() => import("./Pages/SerrurerieMadeleine.tsx"));
 
 export function Routers() {
     return (
@@ -33,16 +38,23 @@ export function Routers() {
                 <Route path="/platerie" element={<Platerie/>}/>
                 <Route path="/peinture" element={<Peinture/>}/>
                 <Route path="/menuiserie" element={<Menuiserie/>}/>
-                <Route path="/serrurerie" element={<Serrurerie/>}/>
+                <Route path="/serrurier" element={<Serrurerie/>}/>
                 <Route path="/electricite" element={<Electricite/>}/>
                 <Route path="/pose-serrure" element={<PoseSerrure/>}/>
                 <Route path="/revetement-sol" element={<Revetement/>}/>
+                <Route path="/serrurier-douai" element={<SerrurerieDouai/>}/>
                 <Route path="/travaux-de-renovation" element={<TravauxRenovation/>}/>
                 <Route path="/isolateur-interieure" element={<IsolateurInterieure/>}/>
                 <Route path="/reparation-plomberie" element={<ReparationPlomberie/>}/>
-                <Route path="/depannage-serrurerie" element={<DepannageSerrurerie/>}/>
-                <Route path="/serrurerie-dunkerque" element={<SerrurerieDunkerque/>}/>
-                <Route path="/serrurerie-douai" element={<SerrurerieDouai/>}/>
+                <Route path="/depannage-serrurier" element={<DepannageSerrurerie/>}/>
+                <Route path="/serrurier-dunkerque" element={<SerrurerieDunkerque/>}/>
+
+                <Route path="/serrurier-armentieres" element={<SerrurerieArmentieres/>}/>
+                <Route path="/serrurier-tourcoing" element={<SerrurerieTourcoing/>}/>
+                <Route path="/serrurier-villeneuve-ascq" element={<SerrurerieVilleneuve/>}/>
+                <Route path="/serrurier-Watrelos" element={<SerrurerieWatrelos/>}/>
+                <Route path="/serrurier-lanbersart" element={<SerrurerieLanbersart/>}/>
+                <Route path="/serrurier-madeleine" element={<SerrurerieMadeleine/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>

@@ -83,7 +83,7 @@ export default function Footer() {
                             <FooterLayout.LinkGroup col>
                                 <FooterLayout.Link href="/">Accueil</FooterLayout.Link>
                                 <FooterLayout.Link href="/about">À propos</FooterLayout.Link>
-                                <FooterLayout.Link href="/serrurerie">Serrurerie</FooterLayout.Link>
+                                <FooterLayout.Link href="/serrurier">Serrurier</FooterLayout.Link>
                                 <FooterLayout.Link href="/travaux-de-renovation">Travaux de rénovation</FooterLayout.Link>
                                 <FooterLayout.Link href="/electricite">Électricité</FooterLayout.Link>
                                 <FooterLayout.Link href="/reparation-plomberie">Plomberie</FooterLayout.Link>
