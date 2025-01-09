@@ -14,6 +14,7 @@ const Revetement = lazy(() => import("./Pages/Revetement.tsx"));
 const Electricite = lazy(() => import("./Pages/Electricite.tsx"));
 const Serrurerie = lazy(() => import("./Pages/SerrurerieLille.tsx"));
 const PoseSerrure = lazy(() => import("./Pages/SerrurerieArras.tsx"));
+const MentionsLegales = lazy(() => import("./Pages/MentionsLegales.tsx"));
 const SerrurerieDouai = lazy(() => import("./Pages/SerrurerieDouai.tsx"));
 const TravauxRenovation = lazy(() => import("./Pages/TravauxRenovation.tsx"));
 const IsolateurInterieure = lazy(() => import("./Pages/IsolationInterieure.tsx"));
@@ -26,6 +27,8 @@ const SerrurerieVilleneuve = lazy(() => import("./Pages/SerrurerieVilleneuve.tsx
 const SerrurerieWatrelos = lazy(() => import("./Pages/SerrurerieWatrelos.tsx"));
 const SerrurerieLanbersart = lazy(() => import("./Pages/SerrurerieLanbersart.tsx"));
 const SerrurerieMadeleine = lazy(() => import("./Pages/SerrurerieMadeleine.tsx"));
+const PrivacyPolicy = lazy(() => import("./Pages/PrivacyPolicy.tsx"));
+const CGU = lazy(() => import("./Pages/CGU.tsx"));
 
 export function Routers() {
     return (
@@ -55,6 +58,9 @@ export function Routers() {
                 <Route path="/serrurier-Watrelos" element={<SerrurerieWatrelos/>}/>
                 <Route path="/serrurier-lanbersart" element={<SerrurerieLanbersart/>}/>
                 <Route path="/serrurier-madeleine" element={<SerrurerieMadeleine/>}/>
+                <Route path="/mentions-legales" element={<MentionsLegales/>}/>
+                <Route path="/politique-de-confidentialite" element={<PrivacyPolicy/>}/>
+                <Route path="/conditions-generales-utilisation" element={<CGU/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
