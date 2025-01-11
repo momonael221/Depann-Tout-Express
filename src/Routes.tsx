@@ -28,7 +28,9 @@ const SerrurerieWatrelos = lazy(() => import("./Pages/SerrurerieWatrelos.tsx"));
 const SerrurerieLanbersart = lazy(() => import("./Pages/SerrurerieLanbersart.tsx"));
 const SerrurerieMadeleine = lazy(() => import("./Pages/SerrurerieMadeleine.tsx"));
 const PrivacyPolicy = lazy(() => import("./Pages/PrivacyPolicy.tsx"));
+
 const CGU = lazy(() => import("./Pages/CGU.tsx"));
+const Pricing = lazy(() => import("./Pages/Pricing.tsx"));
 
 export function Routers() {
     return (
@@ -61,6 +63,7 @@ export function Routers() {
                 <Route path="/mentions-legales" element={<MentionsLegales/>}/>
                 <Route path="/politique-de-confidentialite" element={<PrivacyPolicy/>}/>
                 <Route path="/conditions-generales-utilisation" element={<CGU/>}/>
+                <Route path="/les-prix" element={<Pricing/>}/>
                 <Route path='*' element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
